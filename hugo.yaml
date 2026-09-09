@@ -13,7 +13,7 @@ defaultContentLanguageInSubdir: false
 languages:
   en:
     languageName: "English"
-    weight: 2
+    weight: 1
     contentDir: "content"
     menu:
       main:
@@ -27,200 +27,9 @@ languages:
         #  title: Image gallery
         #  url: /gallery
         #  weight: 2
-    params:
-      hero:
-        intro: "Welcome to the website of"
-        title: "Antonio J. Cuesta"
-        subtitle: "Teacher and Researcher in Cosmology"
-        content: "I am an Associate Professor at the [University of Córdoba](https://www.uco.es). I teach the courses 'Astrophysics and Cosmology' and 'Nuclear and Particle Physics' of the Bachelor's degree in Physics. My research focuses on the field of Cosmology, which unites these disciplines."
-        button:
-          name: "Curriculum"
-      about:
-        title: "About Me"
-        content: |-
-          I was born in Granada, where I trained as a physicist specializing in Astrophysics and Cosmology. After completing a doctoral thesis on the properties of dark matter halos—using cosmological simulations run at supercomputing centers—I was hired in New Haven, Connecticut (USA) to study dark energy via the Sloan Digital Sky Survey's BOSS mapping project, employing Bayesian statistical techniques to analyze the large-scale structure of the Universe. Subsequently, I secured a position in Barcelona, where I continued my work on baryon acoustic oscillations while developing new skills, such as the cosmological determination of neutrino mass and the study of the Hubble Tension. Finally, I found my professional home at the University of Córdoba, where I successfully navigated several selection processes to obtain the tenured faculty position (Associate Professor) I hold today.
-
-          I am currently working on a project that makes it possible to test for the viability of particles beyond the Standard Model through large-scale astronomical surveys (conducted by ground-based and space-based observatories) using cosmological data. 
-
-          My favorite physics-related quotes are:
-
-          *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move."* ― Richard Feynman, The Character of Physical Law.
-          
-          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, y también *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
-          
-          *"Remember to look up at the stars and not down at your feet. [...] It matters that you don't just give up. While there's life, there is hope."* ― Stephen W. Hawking.
-
-        skills:
-          title: "Subjects I have recently taught:"
-      experience:
-        items:
-          - company: "Universidad de Córdoba"
-            companyUrl: "https://www.uco.es"
-            jobs:
-              - name: "Interim Substitute Professor, Assistant Professor (Tenure-Track), Associate Professor (Contracted), and Tenured Associate Professor"
-                date: "Feb 2017 - today"
-                content: "Lecturer and Researcher in the Department of Physics."
-                info:
-                  content: "Full-time (temporary and permanent) teaching and research staff (PDI); Full-time civil servant."
-                featuredItems:
-                  ## fontAwesomeIcons:
-                  ##  - icon: fa-brands fa-react
-                  ##    url: https://react.dev/
-                  ##    tooltip: Contenido de ejemplo de tooltip
-                  ##  - icon: fab fa-x-twitter
-                  ##    url: https://example.com
-                  customIcons:
-                    - icon: /images/uco.png
-                      url: "https://www.uco.es"
-                      tooltip: University of Córdoba logo
-                    ## - icon: /fav.png
-                    ##   url: "https://example.com"
-                    ##   tooltip: Contenido de ejemplo de tooltip
-              - name: "Selected publications"
-                content: |
-                 - Dynamical dark energy in light of the latest observations. Zhao, GB., Raveri, M., Pogosian, L. et al., incluyendo <u>Antonio J. Cuesta</u> (11/26 authors). *Nature Astronomy* 1, 627-632 (2017). https://doi.org/10.1038/s41550-017-0216-z (441 citations).
-                 - Evidence for baryon acoustic oscillations from galaxy-ellipticity correlations. Kun Xu, Y. P. Jing, Gong-Bo Zhao & <u>Antonio J. Cuesta</u>. *Nature Astronomy* 7, 1259-1264 (2023). https://doi.org/10.1038/s41550-023-02035-4 (21 citations).
-                 - Cosmology of an axion-like majoron. <u>A. J. Cuesta</u>, M. E. Gómez, J. I. Illana and M. Masip.  *Journal of Cosmology and Astroparticle Physics* 04 (2022) 009. https://doi.org/10.1088/1475-7516/2022/04/009 (9 citations).
-          - company: "Universitat de Barcelona"
-            companyUrl: "https://web.ub.edu"
-            jobs:
-              - name: "Postdoctoral Researcher"
-                date: "Oct 2013 - Jan 2017"
-                content: "Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Licia Verde](https://es.wikipedia.org/wiki/Licia_Verde)'s group."
-                info:
-                  content: "Full-time temporary academic staff."
-                featuredItems:
-                  ## fontAwesomeIcons:
-                  ##  - icon: fa-brands fa-react
-                  ##    url: https://react.dev/
-                  ##    tooltip: Contenido de ejemplo de tooltip
-                  ##  - icon: fab fa-x-twitter
-                  ##    url: https://example.com
-                  customIcons:
-                    - icon: /images/ub.jpeg
-                      url: "https://web.ub.edu"
-                      tooltip: University of Barcelona logo
-                    ## - icon: /fav.png
-                    ##   url: "https://example.com"
-                    ##   tooltip: Contenido de ejemplo de tooltip
-              - name: "Selected publications"
-                ##date: "Cuesta et al. 2016"
-                content: |-
-                 - The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12. <u>Cuesta, Antonio J.</u>; Vargas-Magana, Mariana; Beutler, Florian et al. (23 authors) *Monthly Notices of the Royal Astronomical Society*, Volume 457, Issue 2, 01 April 2016, Pages 1770-1785, https://doi.org/10.1093/mnras/stw066 (155 citations).
-                 - Calibrating the cosmic distance scale ladder: the role of the sound-horizon scale and the local expansion rate as distance anchors. <u>Antonio J. Cuesta</u>, Licia Verde, Adam Riess (Nobel laureate 2011), Raul Jimenez. *Monthly Notices of the Royal Astronomical Society*, Volume 448, Issue 4, 21 April 2015, Pages 3463-3471, https://doi.org/10.1093/mnras/stv261 (92 citations).
-                 - Neutrino mass limits: Robust information from the power spectrum of galaxy surveys. <u>Antonio J. Cuesta</u>, Viviana Niro, Licia Verde. *Physics of the Dark Universe*, Volume 13, 2016, Pages 77-86, https://doi.org/10.1016/j.dark.2016.04.005 (107 citations).
-          - company: "Yale University"
-            companyUrl: "https://www.yale.edu"
-            jobs:
-              - name: "Postdoctoral Research Associate"
-                date: "Oct 2010 - Sep 2013"
-                info:
-                  content: Full-time temporary academic staff.
-                content: |
-                  Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Nikhil Padmanabhan](https://en.wikipedia.org/wiki/Nikhil_Padmanabhan)'s group.
-
-                ##  - Desarrolladora backend principal de un producto.
-                ##  - Creé un diseño frontend para un producto.
-                featuredItems:
-                  customIcons:
-                    - icon: /images/yale.png
-                      url: "https://www.yale.edu"
-                      tooltip: Yale University logo
-              - name: "Selected publications"
-                content: |
-                 - Clustering of Sloan Digital Sky Survey III Photometric Luminous Galaxies: The Measurement, Systematics, and Cosmological Implications. Shirley Ho, <u>Antonio Cuesta</u>, Hee-Jong Seo, et al. (40 authors). *The Astrophysical Journal*, Volume 761, 14 https://doi.org/10.1088/0004-637X/761/1/14 (119 citations).
-                 - Measuring DA and H at z=0.35 from the SDSS DR7 LRGs using baryon acoustic oscillations. Xiaoying Xu, <u>Antonio J. Cuesta</u>, Nikhil Padmanabhan, Daniel J. Eisenstein, Cameron K. McBride. *Monthly Notices of the Royal Astronomical Society*, Volume 431, Issue 3, 21 May 2013, Pages 2834–2860, https://doi.org/10.1093/mnras/stt379 (191 citations).
-          - company: "IAA-CSIC"
-            companyUrl: "https://www.iaa.csic.es"
-            jobs:
-              - name: "PhD student"
-                date: "May 2006 - Apr 2010"
-                featuredItems:
-                  customIcons:
-                    - icon: /images/iaa.jpeg
-                      url: "https://www.iaa.csic.es/"
-                info:
-                  content: Full-time temporary contract.
-                content: |
-                  Completion of the doctoral thesis in Astrophysics "The properties of virialized dark matter halos: Signals from the large scale structures". Predoctoral researcher in Dr. [Francisco Prada](https://fprada.iaa.es/)'s group.
-
-                ##  - Desarrolladora backend principal de un producto.
-                ##  - Creé un diseño frontend para un producto.
-              - name: "Selected publications"
-                content: |
-                 - The virialized mass of dark matter haloes. <u>A. J. Cuesta</u>, F. Prada, A. Klypin, M. Moles. *Monthly Notices of the Royal Astronomical Society*, Volume 389, Issue 1, September 2008, Pages 385-397, https://doi.org/10.1111/j.1365-2966.2008.13590.x (128 citations).
-                 - Spin alignment of dark matter haloes in the shells of the largest voids. <u>Antonio J. Cuesta</u>, Juan E. Betancort-Rijo, Stefan Gottlöber, Santiago G. Patiri, Gustavo Yepes, Francisco Prada. *Monthly Notices of the Royal Astronomical Society*, Volume 385, Issue 2, February 2008, Pages 867-874, https://doi.org/10.1111/j.1365-2966.2008.12879.x (30 citations).
-      education:
-        items:
-          - title: PhD from the University of Granada
-            school:
-              name: "University of Granada"
-              url: "https://www.ugr.es/"
-            date: "2006 - 2010"
-            GPA: "Outstanding cum laude"
-            content: |-
-              Doctoral Program in Advanced Methods and Techniques in Physics (Astrophysics Module). Doctoral thesis titled "The properties of virialized dark matter halos: Signals from the large scale structures" conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es).
-            featuredLink:
-              enable: true
-              name: "My PhD thesis"
-              url: "https://digibug.ugr.es/handle/10481/6640"
-          - title: "Master's Degree in Advanced Methods and Techniques in Physics"
-            school:
-              name: "University of Granada"
-              url: "https://www.ugr.es/"
-            date: "2005 - 2007"
-            GPA: "Outstanding"
-            content: |-
-              Master's thesis titled "The Virialized Mass of Dark Matter Halos in Cosmological Simulations," conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es/) y el Dr. [Mariano Moles Villamate](https://es.wikipedia.org/wiki/Mariano_Moles).
-          - title: "Master's Degree in Compulsory Secondary Education and Baccalaureate Teaching, Vocational Training and Language Teaching - Specialty in Physics and Chemistry"
-            school:
-              name: "University of Seville"
-              url: "https://www.us.es/"
-            date: "2016 - 2017"
-            GPA: "Outstanding"
-            content: |-
-              Master's Thesis titled "A Proposal for Improving the Teaching of Quantum Physics in the Final Year of High School," carried out in the Department of Didactics of Experimental and Social Sciences under the supervision of Dr. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
-      projects:
-        items:
-          - title: Baryon Acoustic Oscillations in Large  Astronomical Surveys
-            content: These waves, which propagated when the Universe was in a plasma state, became frozen long before galaxies formed, thereby imprinting their signature onto the Universe's large-scale structure. They serve as excellent cosmic distance indicators, enabling the measurement of distances spanning billions of light-years with a precision of better than 1%. Indeed, current experiments such as DESI, Euclid, and Roman are conducting astronomical surveys that reach billions of years back in time, allowing for the reconstruction of the Universe's expansion history (thereby testing the validity of the standard ΛCDM cosmological model) and the formation of structures within it (thereby testing the validity of General Relativity).
-            image: /images/bao.png
-            featured:
-              name: Wikipedia
-              link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
-          - title: Cosmic distance ladder and the Hubble Tension
-            content: Measuring distances is a major challenge in cosmology. To do so, we need a thorough understanding of the properties of various astrophysical objects observable at great distances - such as Cepheid variable stars or Type Ia supernovae - and must precisely calibrate geometric distance measurements, such as stellar parallaxes or masers in nearby galaxies. In the near future, measuring quasars via strong gravitational lensing - enabled by the LSST survey at the Vera C. Rubin Observatory - and detecting gravitational waves from neutron star and/or black hole mergers will allow for a better quantification of the Hubble Tension, thereby advancing our understanding of the properties of mysterious dark energy.
-            image: /images/ladder.png
-            featured:
-              name: Wikipedia
-              link:  https://en.wikipedia.org/wiki/Cosmic_distance_ladder
-          - title: The Physics of the neutrino sector and its cosmological effects
-            content: The neutrino sector is the least understood part of the Standard Model of particle physics and may hold the key to the matter-antimatter asymmetry that explains our own existence. Although experiments conducted in 1998 and 2001 revealed that neutrinos have mass, the origin of that mass - which is millions of times smaller than the mass of the electron - remains unknown, as does its precise value. Cosmological measurements allow for the setting of strict limits on neutrino mass, complementing particle physics experiments such as KATRIN. Furthermore, experiments like PTOLEMY aim to detect the cosmic neutrino background, providing information about the state of the Universe just one second after the Big Bang.
-            image: /images/neutrino.png
-            featured:
-              name: Wikipedia
-              link:  https://en.wikipedia.org/wiki/Cosmic_neutrino_background
-      achievements:
-        items:
-          - title: Principal Investigator
-            content: I have led the research project "Analysis of the statistics of the galaxy distribution in the large-scale structure using large astronomical surveys" (AST22_00001), funded with €116,083.00 by Junta de Andalucía and the European Union.
-            url: "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/universidad-cordoba-aplicara-estadistica-conocer-distribucion-galaxia_1_10892182.html"
-            image: /images/acuerdo.png
-          - title: Published book
-            content: I am author of the book *Problemas de Astrofísica* (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
-            url: "https://editorial.ugr.es/libro/problemas-de-astrofisica_139665/"
-            image: /images/libro.jpg
-          - title: Teaching excellence
-            content: I was awarded University of Cordoba's Teaching Excellence Distinction on October 9, 2020, based on my score in the DOCENTIA-Córdoba program during the 2014/15 to 2018/19 academic years.
-            #url: https://example.com
-            image: /images/logo-UCO.jpg   
-      contact:
-        content: Do you have any questions or suggestions? Don't hesitate to write to me! I am always open to new ideas and collaborations.
-        btnName: Send me an email
- 
   es:
     languageName: "Español"
-    weight: 1
+    weight: 2
     contentDir: "content/es"
     menu:
       main:
@@ -571,20 +380,20 @@ params:
       disableAchievements: false
       disableContact: false
 
-  # Hero
+  # Hero  
   hero:
     enable: true
-    intro: "Welcome, my name is"
+    intro: "Welcome to the website of"
     title: "Antonio J. Cuesta"
     subtitle: "Teacher and Researcher in Cosmology"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    content: "I am an Associate Professor at the [University of Córdoba](https://www.uco.es). I teach the courses 'Astrophysics and Cosmology' and 'Nuclear and Particle Physics' of the Bachelor's degree in Physics. My research focuses on the field of Cosmology, which unites these disciplines."
     image: /images/ajcuesta.jpg
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
     button:
       enable: true
-      name: "Resume"
+      name: "Curriculum"
       url: "CVA.pdf"
       download: true
       newPage: false
@@ -604,16 +413,23 @@ params:
         - icon: /images/orcid.png
           url: "https://orcid.org/0000-0002-4153-9470"
 
-
   # About
   about:
     enable: true
     title: "About Me"
     image: "/images/me.jpg"
-    content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+    content: |- 
+          I was born in Granada, where I trained as a physicist specializing in Astrophysics and Cosmology. After completing a doctoral thesis on the properties of dark matter halos—using cosmological simulations run at supercomputing centers—I was hired in New Haven, Connecticut (USA) to study dark energy via the Sloan Digital Sky Survey's BOSS mapping project, employing Bayesian statistical techniques to analyze the large-scale structure of the Universe. Subsequently, I secured a position in Barcelona, where I continued my work on baryon acoustic oscillations while developing new skills, such as the cosmological determination of neutrino mass and the study of the Hubble Tension. Finally, I found my professional home at the University of Córdoba, where I successfully navigated several selection processes to obtain the tenured faculty position (Associate Professor) I hold today.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+          I am currently working on a project that makes it possible to test for the viability of particles beyond the Standard Model through large-scale astronomical surveys (conducted by ground-based and space-based observatories) using cosmological data. 
+
+          My favorite physics-related quotes are:
+
+          *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move."* ― Richard Feynman, The Character of Physical Law.
+          
+          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, y también *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
+          
+          *"Remember to look up at the stars and not down at your feet. [...] It matters that you don't just give up. While there's life, there is hope."* ― Stephen W. Hawking.
     
     skills:
       enable: true
@@ -631,80 +447,102 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - company: "Facebook"
-        companyUrl: "https://example.com"
+      - company: "Universidad de Córdoba"
+        companyUrl: "https://www.uco.es"
         jobs:
-          - name: "Senior Software Developer"
-            date: "Jan 2023 - present"
-            content: "I am currently working as a senior software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "Interim Substitute Professor, Assistant Professor (Tenure-Track), Associate Professor (Contracted), and Tenured Associate Professor"
+            date: "Feb 2017 - today"
+            content: "Lecturer and Researcher in the Department of Physics."
             info:
-              content: Working as a senior software developer
+              content: "Full-time (temporary and permanent) teaching and research staff (PDI); Full-time civil servant."
             featuredItems:
-              fontAwesomeIcons:
-                - icon: fa-brands fa-react
-                  url: https://react.dev/
-                  tooltip: Example tooltip content
-                - icon: fab fa-x-twitter
-                  url: https://example.com
-                  # tooltip: Example tooltip content
+              ## fontAwesomeIcons:
+              ##  - icon: fa-brands fa-react
+              ##    url: https://react.dev/
+              ##    tooltip: Contenido de ejemplo de tooltip
+              ##  - icon: fab fa-x-twitter
+              ##    url: https://example.com
               customIcons:
-                - icon: /fav.png
-                  url: "https://example.com"
-                  tooltip: Example tooltip content
-          - name: "Software Developer"
-            date: "Jan 2022 - Dec 2023"
-            content: "I worked as a software developer. I worked on a project that will be used to help people find the best way to get around the city."
-
-      - company: "Amazon"
-        companyUrl: "https://example.com"
-        jobs:
-          - name: "Software Developer"
-            date: "Sep 2020 - Dec 2021"
-            info:
-              content: I worked as a software developer for more than one year in Amazon.
+                - icon: /images/uco.png
+                  url: "https://www.uco.es"
+                  tooltip: University of Córdoba logo
+                ## - icon: /fav.png
+                ##   url: "https://example.com"
+                ##   tooltip: Contenido de ejemplo de tooltip
+          - name: "Selected publications"
             content: |
-              I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-              - Lead backend developer for a product.
-              - Created a frontend design for a product.
-
-      - company: "Apple"
-        companyUrl: "https://example.com"
-        jobs: 
-        - name: "Junior Software Developer"
-          date: "Jan 2020 - Aug 2020"
-          featuredItems:
-            fontAwesomeIcons:
-              - icon: fa-brands fa-react
-                url: https://react.dev/
-              - icon: fab fa-x-twitter
-                url: https://example.com
-            customIcons:
-              - icon: /fav.png
-                url: "https://example.com"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Netflix"
-        companyUrl: "https://example.com"
+              - Dynamical dark energy in light of the latest observations. Zhao, GB., Raveri, M., Pogosian, L. et al., incluyendo <u>Antonio J. Cuesta</u> (11/26 authors). *Nature Astronomy* 1, 627-632 (2017). https://doi.org/10.1038/s41550-017-0216-z (441 citations).
+              - Evidence for baryon acoustic oscillations from galaxy-ellipticity correlations. Kun Xu, Y. P. Jing, Gong-Bo Zhao & <u>Antonio J. Cuesta</u>. *Nature Astronomy* 7, 1259-1264 (2023). https://doi.org/10.1038/s41550-023-02035-4 (21 citations).
+              - Cosmology of an axion-like majoron. <u>A. J. Cuesta</u>, M. E. Gómez, J. I. Illana and M. Masip.  *Journal of Cosmology and Astroparticle Physics* 04 (2022) 009. https://doi.org/10.1088/1475-7516/2022/04/009 (9 citations).
+      - company: "Universitat de Barcelona"
+        companyUrl: "https://web.ub.edu"
         jobs:
-        - name: "UI/UX Designer"
-          date: "June 2017 - Nov 2019"
-          content: |
-            I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-
-            - Lead backend developer for a product.
-            - Created a frontend design for a product.
-
-      - company: "Google"
-        companyUrl: "https://example.com"
+          - name: "Postdoctoral Researcher"
+            date: "Oct 2013 - Jan 2017"
+            content: "Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Licia Verde](https://es.wikipedia.org/wiki/Licia_Verde)'s group."
+            info:
+              content: "Full-time temporary academic staff."
+            featuredItems:
+              ## fontAwesomeIcons:
+              ##  - icon: fa-brands fa-react
+              ##    url: https://react.dev/
+              ##    tooltip: Contenido de ejemplo de tooltip
+              ##  - icon: fab fa-x-twitter
+              ##    url: https://example.com
+              customIcons:
+                - icon: /images/ub.jpeg
+                  url: "https://web.ub.edu"
+                  tooltip: University of Barcelona logo
+                ## - icon: /fav.png
+                ##   url: "https://example.com"
+                ##   tooltip: Contenido de ejemplo de tooltip
+          - name: "Selected publications"
+            ##date: "Cuesta et al. 2016"
+            content: |-
+              - The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12. <u>Cuesta, Antonio J.</u>; Vargas-Magana, Mariana; Beutler, Florian et al. (23 authors) *Monthly Notices of the Royal Astronomical Society*, Volume 457, Issue 2, 01 April 2016, Pages 1770-1785, https://doi.org/10.1093/mnras/stw066 (155 citations).
+              - Calibrating the cosmic distance scale ladder: the role of the sound-horizon scale and the local expansion rate as distance anchors. <u>Antonio J. Cuesta</u>, Licia Verde, Adam Riess (Nobel laureate 2011), Raul Jimenez. *Monthly Notices of the Royal Astronomical Society*, Volume 448, Issue 4, 21 April 2015, Pages 3463-3471, https://doi.org/10.1093/mnras/stv261 (92 citations).
+              - Neutrino mass limits: Robust information from the power spectrum of galaxy surveys. <u>Antonio J. Cuesta</u>, Viviana Niro, Licia Verde. *Physics of the Dark Universe*, Volume 13, 2016, Pages 77-86, https://doi.org/10.1016/j.dark.2016.04.005 (107 citations).
+      - company: "Yale University"
+        companyUrl: "https://www.yale.edu"
         jobs:
-        - name: "Product Designer"
-          date: "Feb 2016 - Mar 2017"
-          content: "I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city."
+          - name: "Postdoctoral Research Associate"
+            date: "Oct 2010 - Sep 2013"
+            info:
+              content: Full-time temporary academic staff.
+            content: |
+              Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Nikhil Padmanabhan](https://en.wikipedia.org/wiki/Nikhil_Padmanabhan)'s group.
+
+            ##  - Desarrolladora backend principal de un producto.
+            ##  - Creé un diseño frontend para un producto.
+            featuredItems:
+              customIcons:
+                - icon: /images/yale.png
+                  url: "https://www.yale.edu"
+                  tooltip: Yale University logo
+          - name: "Selected publications"
+            content: |
+              - Clustering of Sloan Digital Sky Survey III Photometric Luminous Galaxies: The Measurement, Systematics, and Cosmological Implications. Shirley Ho, <u>Antonio Cuesta</u>, Hee-Jong Seo, et al. (40 authors). *The Astrophysical Journal*, Volume 761, 14 https://doi.org/10.1088/0004-637X/761/1/14 (119 citations).
+              - Measuring DA and H at z=0.35 from the SDSS DR7 LRGs using baryon acoustic oscillations. Xiaoying Xu, <u>Antonio J. Cuesta</u>, Nikhil Padmanabhan, Daniel J. Eisenstein, Cameron K. McBride. *Monthly Notices of the Royal Astronomical Society*, Volume 431, Issue 3, 21 May 2013, Pages 2834–2860, https://doi.org/10.1093/mnras/stt379 (191 citations).
+      - company: "IAA-CSIC"
+        companyUrl: "https://www.iaa.csic.es"
+        jobs:
+          - name: "PhD student"
+            date: "May 2006 - Apr 2010"
+            featuredItems:
+              customIcons:
+                - icon: /images/iaa.jpeg
+                  url: "https://www.iaa.csic.es/"
+            info:
+              content: Full-time temporary contract.
+            content: |
+              Completion of the doctoral thesis in Astrophysics "The properties of virialized dark matter halos: Signals from the large scale structures". Predoctoral researcher in Dr. [Francisco Prada](https://fprada.iaa.es/)'s group.
+
+            ##  - Desarrolladora backend principal de un producto.
+            ##  - Creé un diseño frontend para un producto.
+          - name: "Selected publications"
+            content: |
+              - The virialized mass of dark matter haloes. <u>A. J. Cuesta</u>, F. Prada, A. Klypin, M. Moles. *Monthly Notices of the Royal Astronomical Society*, Volume 389, Issue 1, September 2008, Pages 385-397, https://doi.org/10.1111/j.1365-2966.2008.13590.x (128 citations).
+              - Spin alignment of dark matter haloes in the shells of the largest voids. <u>Antonio J. Cuesta</u>, Juan E. Betancort-Rijo, Stefan Gottlöber, Santiago G. Patiri, Gustavo Yepes, Francisco Prada. *Monthly Notices of the Royal Astronomical Society*, Volume 385, Issue 2, February 2008, Pages 867-874, https://doi.org/10.1111/j.1365-2966.2008.12879.x (30 citations).
 
   # Education
   education:
@@ -712,121 +550,83 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Business Administration"
+      - title: PhD from the University of Granada
         school:
-          name: "University of California, Berkeley"
-          url: "https://example.org"
-        date: "2013 - 2015"
-        GPA: "3.8 out of 5.0"
+          name: "University of Granada"
+          url: "https://www.ugr.es/"
+        date: "2006 - 2010"
+        GPA: "Outstanding cum laude"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-      - title: "Bachelor of Science in Computer Science"
-        school:
-          name: "Massachusetts Institute of Technology"
-          url: "https://example.org"
-        date: "2009 - 2013"
-        GPA: "3.9 out of 5.0"
-        content: |-
-          I Publiced two papers in the ACM SIGCHI Conference on Artificial Intelligence.
-          - [Fast and Accurate Object Detection with a Single Convolutional Neural Network](https://example.com)
-          - Face mask detection using a single convolutional neural network.
-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          Doctoral Program in Advanced Methods and Techniques in Physics (Astrophysics Module). Doctoral thesis titled "The properties of virialized dark matter halos: Signals from the large scale structures" conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es).
         featuredLink:
           enable: true
-          name: "My academic record"
-          url: "https://example.com"
-      - title: "High School"
+          name: "My PhD thesis"
+          url: "https://digibug.ugr.es/handle/10481/6640"
+      - title: "Master's Degree in Advanced Methods and Techniques in Physics"
         school:
-          name: "Thomas Jefferson High School for Science and Technology."
-          url: "https://example.org"
-        GPA: "4.2 out of 5.0"
-        featuredLink:
-          enable: true
-          url: "https://example.com"
+          name: "University of Granada"
+          url: "https://www.ugr.es/"
+        date: "2005 - 2007"
+        GPA: "Outstanding"
+        content: |-
+          Master's thesis titled "The Virialized Mass of Dark Matter Halos in Cosmological Simulations," conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es/) y el Dr. [Mariano Moles Villamate](https://es.wikipedia.org/wiki/Mariano_Moles).
+      - title: "Master's Degree in Compulsory Secondary Education and Baccalaureate Teaching, Vocational Training and Language Teaching - Specialty in Physics and Chemistry"
+        school:
+          name: "University of Seville"
+          url: "https://www.us.es/"
+        date: "2016 - 2017"
+        GPA: "Outstanding"
+        content: |-
+          Master's Thesis titled "A Proposal for Improving the Teaching of Quantum Physics in the Final Year of High School," carried out in the Department of Didactics of Experimental and Social Sciences under the supervision of Dr. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
 
   # Achievements
   achievements:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-        image: /images/achievement.jpg
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-        image: /images/achievement.jpg
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-        image: /images/achievement.jpg
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
+      - title: Principal Investigator
+        content: I have led the research project "Analysis of the statistics of the galaxy distribution in the large-scale structure using large astronomical surveys" (AST22_00001), funded with €116,083.00 by Junta de Andalucía and the European Union.
+        url: "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/universidad-cordoba-aplicara-estadistica-conocer-distribucion-galaxia_1_10892182.html"
+        image: /images/acuerdo.png
+      - title: Published book
+        content: I am author of the book *Problemas de Astrofísica* (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
+        url: "https://editorial.ugr.es/libro/problemas-de-astrofisica_139665/"
+        image: /images/libro.jpg
+      - title: Teaching excellence
+        content: I was awarded University of Cordoba's Teaching Excellence Distinction on October 9, 2020, based on my score in the DOCENTIA-Córdoba program during the 2014/15 to 2018/19 academic years.
+        #url: https://example.com
+        image: /images/logo-UCO.jpg  
 
   # projects
   projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Baryon Acoustic Oscillations in Large Astronomical Surveys
+        content: These waves, which propagated when the Universe was in a plasma state, became frozen long before galaxies formed, thereby imprinting their signature onto the Universe's large-scale structure. They serve as excellent cosmic distance indicators, enabling the measurement of distances spanning billions of light-years with a precision of better than 1%. Indeed, current experiments such as DESI, Euclid, and Roman are conducting astronomical surveys that reach billions of years back in time, allowing for the reconstruction of the Universe's expansion history (thereby testing the validity of the standard ΛCDM cosmological model) and the formation of structures within it (thereby testing the validity of General Relativity).
+        image: /images/bao.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+          name: Wikipedia
+          link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
+      - title: Cosmic distance ladder and the Hubble Tension
+        content: Measuring distances is a major challenge in cosmology. To do so, we need a thorough understanding of the properties of various astrophysical objects observable at great distances - such as Cepheid variable stars or Type Ia supernovae - and must precisely calibrate geometric distance measurements, such as stellar parallaxes or masers in nearby galaxies. In the near future, measuring quasars via strong gravitational lensing - enabled by the LSST survey at the Vera C. Rubin Observatory - and detecting gravitational waves from neutron star and/or black hole mergers will allow for a better quantification of the Hubble Tension, thereby advancing our understanding of the properties of mysterious dark energy.
+        image: /images/ladder.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
-        badges:
-          - "Django"
-          - "Bootstrap"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
-
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
+          name: Wikipedia
+          link:  https://en.wikipedia.org/wiki/Cosmic_distance_ladder
+      - title: The Physics of the neutrino sector and its cosmological effects
+        content: The neutrino sector is the least understood part of the Standard Model of particle physics and may hold the key to the matter-antimatter asymmetry that explains our own existence. Although experiments conducted in 1998 and 2001 revealed that neutrinos have mass, the origin of that mass - which is millions of times smaller than the mass of the electron - remains unknown, as does its precise value. Cosmological measurements allow for the setting of strict limits on neutrino mass, complementing particle physics experiments such as KATRIN. Furthermore, experiments like PTOLEMY aim to detect the cosmic neutrino background, providing information about the state of the Universe just one second after the Big Bang.
+        image: /images/neutrino.png
         featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
-        badges:
-          - "Hugo"
-          - "Bootstrap"
-          - "Javascript"
-        links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          name: Wikipedia
+          link:  https://en.wikipedia.org/wiki/Cosmic_neutrino_background 
 
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    btnName: Mail me
+    content: Do you have any questions or suggestions? Don't hesitate to write to me! I am always open to new ideas and collaborations.
+    btnName: Send me an email
     btnLink: mailto:ajcuesta@uco.es
     # formspree:
     #   enable: true # `contact.email` value will be ignored
