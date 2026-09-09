@@ -228,34 +228,9 @@ languages:
             #    url: https://github.com/gurusabarish/hugo-profile
             #  - icon: fab fa-twitter
             #    url: https://twitter.com/intent/tweet?text=Échale+un+vistazo:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: Estudio cosmológico de partículas de tipo axión
-            content: |-
-              Una aplicación web para convertir imágenes a pdf, png a jpg, png a jpg y png a webp sin base de datos usando django.
-              - hola
-              - hola 2
-            image: /images/projects/converter.jpg
-            featured:
-              name: Demo
-              link: https://django-converter.herokuapp.com
-            badges:
-              - "Django"
-              - "Bootstrap"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/converter
-          - title: Medida cosmológica de la masa de los neutrinos
-            content: Determinación del valor de la masa total de los tres tipos de neutrino a partir de la distribución de galaxias en la estructura a gran escala, así como de una combinación de datos de fondo cósmico de microondas y de oscilaciones acústicas de bariones.
-            image: /images/projects/profile2.jpg
-            featured:
-              name: Demo V2
-              link: https://hugo-profile-2.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/HugoProfileV2
+#          - title: Estudio cosmológico de partículas de tipo axión
+#          - title: Medida cosmológica de la masa de los neutrinos
+#            content: Determinación del valor de la masa total de los tres tipos de neutrino a partir de la distribución de galaxias en la estructura a gran escala, así como de una combinación de datos de fondo cósmico de microondas y de oscilaciones acústicas de bariones.
       achievements:
         items:
           - title: Investigador principal #de un proyecto de investigación
