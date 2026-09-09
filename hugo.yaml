@@ -7,26 +7,26 @@ relativeURLs: true
 canonifyURLs: true
 
 # Multilingual configuration
-defaultContentLanguage: "en"
+defaultContentLanguage: "es"
 defaultContentLanguageInSubdir: false
 
 languages:
-  en:
-    languageName: "English"
-    weight: 1
-    contentDir: "content"
-    menu:
-      main:
-        - identifier: blog
-          name: Blog
-          title: Blog posts
-          url: /blogs
-          weight: 1
-        - identifier: gallery
-          name: Gallery
-          title: Image gallery
-          url: /gallery
-          weight: 2
+  #en:
+    #languageName: "English"
+    #weight: 1
+    #contentDir: "content"
+    #menu:
+      #main:
+        #- identifier: blog
+          #name: Blog
+          #title: Blog posts
+          #url: /blogs
+          #weight: 1
+        #- identifier: gallery
+        #  name: Gallery
+        #  title: Image gallery
+        #  url: /gallery
+        #  weight: 2
   es:
     languageName: "Español"
     weight: 2
@@ -38,14 +38,14 @@ languages:
           title: Publicaciones del blog
           url: /es/blogs
           weight: 1
-        - identifier: gallery
-          name: Galería
-          title: Galería de imágenes
-          url: /es/gallery
-          weight: 2
+        #- identifier: gallery
+        #  name: Galería
+        #  title: Galería de imágenes
+        #  url: /es/gallery
+        #  weight: 2
     params:
       hero:
-        intro: "Hola, mi nombre es"
+        intro: "Bienvenido a la página web de"
         title: "Antonio J. Cuesta"
         subtitle: "Docente e Investigador de la Física de lo Grande y lo Pequeño"
         content: "Soy Profesor Titular en la [Universidad de Córdoba](https://www.uco.es). Imparto las asignaturas 'Astrofísica y Cosmología' y 'Física Nuclear y de Partículas' del Grado de Física. Mi investigación se centra en el campo de la Cosmología, que une ambas disciplinas."
@@ -54,141 +54,185 @@ languages:
       about:
         title: "Sobre Mí"
         content: |-
-          Soy una desarrolladora de software con pasión por el desarrollo web. Tengo experiencia en ciencias de la computación y matemáticas, y tengo un fuerte interés en la intersección de la tecnología y el arte. Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA.
+          Nací en Granada, donde me formé como físico especializado en Astrofísica y Cosmología. Tras completar una tesis doctoral sobre propiedades de los halos de materia oscura usando simulaciones cosmológicas realizadas en centros de supercomputación, fui contratado en New Haven, Connecticut (Estados Unidos) para el estudio de la energía oscura mediante el cartografiado BOSS del Sloan Digital Sky Survey usando técnicas de estadística bayesiana sobre la estructura a Gran Escala del Universo. Posteriormente conseguí un contrato en Barcelona, donde pude continuar mi trabajo en oscilaciones acústicas de bariones, a la vez que desarrollé nuevas habilidades como la determinación cosmológica de la masa de los neutrinos o el estudio de la Tensión de Hubble. Finalmente, encontré mi destino en la Universidad de Córdoba, donde superé varios procesos selectivos hasta alcanzar la plaza de funcionario público (Profesor Titular de Universidad) que ahora ocupo.
 
-          Actualmente estoy trabajando en un proyecto que permite comprobar la existencia de partículas más allá del Modelo Estándar mediante grandes cartografiados astronómicos realizados por observatorios terrestres y desde el espacio.
+          Actualmente estoy trabajando en un proyecto que permite evaluar la existencia de partículas más allá del Modelo Estándar mediante grandes cartografiados astronómicos (realizados por observatorios terrestres y desde el espacio) usando datos cosmológicos.
+          
+          Mis frases favoritas relacionadas con la Física son:
+
+          *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move."* ― Richard Feynman, The Character of Physical Law.
+          
+          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, y también *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
+          
+          *"Remember to look up at the stars and not down at your feet. [...] It matters that you don't just give up. While there's life, there is hope."* ― Stephen W. Hawking.
+#          - *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move. The great gods who play this chess play it very rapidly, and it is hard to watch and difficult to see. However, we are catching on to some of the rules, and there are some rules which we can work out which do not require that we watch every move. For instance, suppose there is one bishop only, a red bishop, on the board, then since the bishop moves diagonally and therefore never changes the colour of its square, if we look away for a moment while the gods play and then look back again, we can expect that there will be still a red bishop on the board, maybe in a different place, but on the same colour square. This is in the nature of a conservation law. We do not need to watch the insides to know at least something about the game."* ― Richard Feynman, The Character of Physical Law.
+#          - *"The important thing is not to stop questioning. Curiosity has its own reason for existing. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."* ― Albert Einstein
         skills:
-          title: "Aquí hay algunas tecnologías con las que he estado trabajando recientemente:"
+          title: "Asignaturas que he impartido recientemente:"
       experience:
         items:
+          - company: "Universidad de Córdoba"
+            companyUrl: "https://www.uco.es"
+            jobs:
+              - name: "Profesor Sustituto Interino, Profesor Ayudante Doctor, Contratado Doctor, y Profesor Titular"
+                date: "Feb 2017 - presente"
+                content: "Docente e Investigador del Departamento de Física."
+                info:
+                  content: PDI laboral temporal e indefinido a tiempo completo. Funcionario de carrera a tiempo completo.
+                featuredItems:
+                  ## fontAwesomeIcons:
+                  ##  - icon: fa-brands fa-react
+                  ##    url: https://react.dev/
+                  ##    tooltip: Contenido de ejemplo de tooltip
+                  ##  - icon: fab fa-x-twitter
+                  ##    url: https://example.com
+                  customIcons:
+                    - icon: /images/uco.png
+                      url: "https://www.uco.es"
+                      tooltip: Logotipo de la Universidad de Córdoba
+                    ## - icon: /fav.png
+                    ##   url: "https://example.com"
+                    ##   tooltip: Contenido de ejemplo de tooltip
+              - name: "Publicaciones destacadas"
+                content: |
+                 - Dynamical dark energy in light of the latest observations. Zhao, GB., Raveri, M., Pogosian, L. et al., incluyendo <u>Antonio J. Cuesta</u> (11/26 autores). *Nature Astronomy* 1, 627-632 (2017). https://doi.org/10.1038/s41550-017-0216-z (citado 441 veces).
+                 - Evidence for baryon acoustic oscillations from galaxy-ellipticity correlations. Kun Xu, Y. P. Jing, Gong-Bo Zhao & <u>Antonio J. Cuesta</u>. *Nature Astronomy* 7, 1259-1264 (2023). https://doi.org/10.1038/s41550-023-02035-4 (citado 21 veces).
+                 - Cosmology of an axion-like majoron. <u>A. J. Cuesta</u>, M. E. Gómez, J. I. Illana and M. Masip.  *Journal of Cosmology and Astroparticle Physics* 04 (2022) 009. https://doi.org/10.1088/1475-7516/2022/04/009 (citado 9 veces).
           - company: "Universitat de Barcelona"
             companyUrl: "https://web.ub.edu"
             jobs:
-              - name: "Desarrolladora Senior de Software"
-                date: "Ene 2023 - presente"
-                content: "Actualmente trabajo como desarrolladora senior de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+              - name: "Investigador Postdoctoral"
+                date: "Oct 2013 - Ene 2017"
+                content: "Investigador del grupo de Galaxy Clustering del experimento Baryon Oscillation Spectroscopic Survey del Sloan Digital Sky Survey III. Postdoc en el grupo de la Dra. [Licia Verde](https://es.wikipedia.org/wiki/Licia_Verde)."
                 info:
-                  content: Trabajando como desarrolladora senior de software
+                  content: PDI laboral temporal a tiempo completo.
                 featuredItems:
-                  fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                      tooltip: Contenido de ejemplo de tooltip
-                    - icon: fab fa-x-twitter
-                      url: https://example.com
+                  ## fontAwesomeIcons:
+                  ##  - icon: fa-brands fa-react
+                  ##    url: https://react.dev/
+                  ##    tooltip: Contenido de ejemplo de tooltip
+                  ##  - icon: fab fa-x-twitter
+                  ##    url: https://example.com
                   customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
-                      tooltip: Contenido de ejemplo de tooltip
-              - name: "Desarrolladora de Software"
-                date: "Ene 2022 - Dic 2023"
-                content: "Trabajé como desarrolladora de software. Trabajé en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+                    - icon: /images/ub.jpeg
+                      url: "https://web.ub.edu"
+                      tooltip: Logotipo de la Universitat de Barcelona
+                    ## - icon: /fav.png
+                    ##   url: "https://example.com"
+                    ##   tooltip: Contenido de ejemplo de tooltip
+              - name: "Publicaciones destacadas"
+                ##date: "Cuesta et al. 2016"
+                content: |-
+                 - The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12. <u>Cuesta, Antonio J.</u>; Vargas-Magana, Mariana; Beutler, Florian et al. (23 autores) *Monthly Notices of the Royal Astronomical Society*, Volume 457, Issue 2, 01 April 2016, Pages 1770-1785, https://doi.org/10.1093/mnras/stw066 (citado 155 veces).
+                 - Calibrating the cosmic distance scale ladder: the role of the sound-horizon scale and the local expansion rate as distance anchors. <u>Antonio J. Cuesta</u>, Licia Verde, Adam Riess (Nobel laureate 2011), Raul Jimenez. *Monthly Notices of the Royal Astronomical Society*, Volume 448, Issue 4, 21 April 2015, Pages 3463-3471, https://doi.org/10.1093/mnras/stv261 (citado 92 veces).
+                 - Neutrino mass limits: Robust information from the power spectrum of galaxy surveys. <u>Antonio J. Cuesta</u>, Viviana Niro, Licia Verde. *Physics of the Dark Universe*, Volume 13, 2016, Pages 77-86, https://doi.org/10.1016/j.dark.2016.04.005 (citado 107 veces).
           - company: "Yale University"
             companyUrl: "https://www.yale.edu"
             jobs:
-              - name: "Desarrolladora de Software"
-                date: "Sep 2020 - Dic 2021"
+              - name: "Postdoctoral Research Associate"
+                date: "Oct 2010 - Sep 2013"
                 info:
-                  content: Trabajé como desarrolladora de software durante más de un año en Amazon.
+                  content: PDI laboral temporal a tiempo completo.
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+                  Investigador del grupo de Galaxy Clustering del experimento Baryon Oscillation Spectroscopic Survey del Sloan Digital Sky Survey III. Postdoc en el grupo del Dr. [Nikhil Padmanabhan](https://en.wikipedia.org/wiki/Nikhil_Padmanabhan).
 
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
-          - company: "IAA-CSIC"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "Desarrolladora Junior de Software"
-                date: "Ene 2020 - Ago 2020"
+                ##  - Desarrolladora backend principal de un producto.
+                ##  - Creé un diseño frontend para un producto.
                 featuredItems:
-                  fontAwesomeIcons:
-                    - icon: fa-brands fa-react
-                      url: https://react.dev/
-                    - icon: fab fa-x-twitter
-                      url: https://example.com
                   customIcons:
-                    - icon: /fav.png
-                      url: "https://example.com"
+                    - icon: /images/yale.png
+                      url: "https://www.yale.edu"
+                      tooltip: Logotipo de la Universidad de Yale
+              - name: "Publicaciones destacadas"
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
-
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
-          - company: "Netflix"
-            companyUrl: "https://example.com"
+                 - Clustering of Sloan Digital Sky Survey III Photometric Luminous Galaxies: The Measurement, Systematics, and Cosmological Implications. Shirley Ho, <u>Antonio Cuesta</u>, Hee-Jong Seo, et al. (40 autores). *The Astrophysical Journal*, Volume 761, 14 https://doi.org/10.1088/0004-637X/761/1/14 (citado 119 veces).
+                 - Measuring DA and H at z=0.35 from the SDSS DR7 LRGs using baryon acoustic oscillations. Xiaoying Xu, <u>Antonio J. Cuesta</u>, Nikhil Padmanabhan, Daniel J. Eisenstein, Cameron K. McBride. *Monthly Notices of the Royal Astronomical Society*, Volume 431, Issue 3, 21 May 2013, Pages 2834–2860, https://doi.org/10.1093/mnras/stt379 (citado 191 veces).
+          - company: "IAA-CSIC"
+            companyUrl: "https://www.iaa.csic.es"
             jobs:
-              - name: "Diseñadora UI/UX"
-                date: "Junio 2017 - Nov 2019"
+              - name: "Investigador Predoctoral"
+                date: "May 2006 - Abr 2010"
+                featuredItems:
+                  customIcons:
+                    - icon: /images/iaa.jpeg
+                      url: "https://www.iaa.csic.es/"
+                info:
+                  content: Contrato laboral temporal a tiempo completo.
                 content: |
-                  Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad.
+                  Realización de la tesis de doctorado en Astrofísica "The properties of virialized dark matter halos: Signals from the large scale structures". Predoc en el grupo del Dr. [Francisco Prada](https://fprada.iaa.es/).
 
-                  - Desarrolladora backend principal de un producto.
-                  - Creé un diseño frontend para un producto.
-          - company: "Google"
-            companyUrl: "https://example.com"
-            jobs:
-              - name: "Diseñadora de Productos"
-                date: "Feb 2016 - Mar 2017"
-                content: "Actualmente trabajo como desarrolladora de software en [ejemplo org.](https://example.com) en San Francisco, CA. Estoy trabajando en un proyecto que se utilizará para ayudar a las personas a encontrar la mejor manera de moverse por la ciudad."
+                ##  - Desarrolladora backend principal de un producto.
+                ##  - Creé un diseño frontend para un producto.
+              - name: "Publicaciones destacadas"
+                content: |
+                 - The virialized mass of dark matter haloes. <u>A. J. Cuesta</u>, F. Prada, A. Klypin, M. Moles. *Monthly Notices of the Royal Astronomical Society*, Volume 389, Issue 1, September 2008, Pages 385-397, https://doi.org/10.1111/j.1365-2966.2008.13590.x (citado 128 veces).
+                 - Spin alignment of dark matter haloes in the shells of the largest voids. <u>Antonio J. Cuesta</u>, Juan E. Betancort-Rijo, Stefan Gottlöber, Santiago G. Patiri, Gustavo Yepes, Francisco Prada. *Monthly Notices of the Royal Astronomical Society*, Volume 385, Issue 2, February 2008, Pages 867-874, https://doi.org/10.1111/j.1365-2966.2008.12879.x (citado 30 veces).
       education:
         items:
-          - title: "Maestría en Administración de Empresas"
+          - title: Doctor por la Universidad de Granada
             school:
-              name: "Universidad de California, Berkeley"
-              url: "https://example.org"
-            date: "2013 - 2015"
-            GPA: "3.8 de 5.0"
+              name: "Universidad de Granada"
+              url: "https://www.ugr.es/"
+            date: "2006 - 2010"
+            GPA: "Sobresaliente cum laude"
             content: |-
-              Actividades Extracurriculares
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
-          - title: "Licenciatura en Ciencias de la Computación"
-            school:
-              name: "Instituto Tecnológico de Massachusetts"
-              url: "https://example.org"
-            date: "2009 - 2013"
-            GPA: "3.9 de 5.0"
-            content: |-
-              Publiqué dos artículos en la Conferencia ACM SIGCHI sobre Inteligencia Artificial.
-              - [Detección de Objetos Rápida y Precisa con una Red Neuronal Convolucional](https://example.com)
-              - Detección de mascarillas faciales usando una red neuronal convolucional.
-
-              Actividades Extracurriculares
-                - Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+              Programa de Doctorado Métodos y Técnicas Avanzadas en Física (Módulo Astrofísica). Tesis Doctoral titulada "The properties of virialized dark matter halos: Signals from the large scale structures" realizada en el Instituto de Astrofísica de Andalucía (IAA-CSIC) bajo la supervisión del Dr. [Francisco Prada Martínez](https://fprada.iaa.es).
             featuredLink:
               enable: true
-              name: "Mi expediente académico"
-              url: "https://example.com"
-          - title: "Escuela Secundaria"
+              name: "Mi tesis doctoral"
+              url: "https://digibug.ugr.es/handle/10481/6640"
+          - title: "Máster Universitario en Métodos y Técnicas Avanzadas en Física"
             school:
-              name: "Escuela Secundaria Thomas Jefferson para Ciencia y Tecnología."
-              url: "https://example.org"
-            GPA: "4.2 de 5.0"
-            featuredLink:
-              enable: true
-              url: "https://example.com"
+              name: "Universidad de Granada"
+              url: "https://www.ugr.es/"
+            date: "2005 - 2007"
+            GPA: "Sobresaliente"
+            content: |-
+              Trabajo Fin de Máster titulado "La masa virializada de los halos de materia oscura en simulaciones cosmológicas" realizada en el Instituto de Astrofísica de Andalucía (IAA-CSIC) bajo la supervisión del Dr. [Francisco Prada Martínez](https://fprada.iaa.es/) y el Dr. [Mariano Moles Villamate](https://es.wikipedia.org/wiki/Mariano_Moles).
+          - title: "Máster Universitario en Profesorado de Educación Secundaria Obligatoria y Bachillerato, Formación Profesional y Enseñanzas de Idiomas - Especialidad de Física y Química"
+            school:
+              name: "Universidad de Sevilla"
+              url: "https://www.us.es/"
+            date: "2016 - 2017"
+            GPA: "Sobresaliente"
+            content: |-
+              Trabajo Fin de Máster titulado "Una propuesta de mejora en la enseñanza de la Física Cuántica en 2º de Bachillerato" realizada en el Departamento de  Didáctica de las Ciencias Experimentales y Sociales bajo la supervisión de la Dra. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
       projects:
         items:
-          - title: Hugo Profile
-            content: Una plantilla Hugo altamente personalizable y centrada en dispositivos móviles para portafolio personal y blog.
-            image: /images/projects/profile.png
+          - title: Oscilaciones acústicas de bariones y Grandes Cartografiados Astronómicos
+            content: Estas ondas que se propagaron cuando el Universo estaba en forma de plasma se quedaron congeladas mucho antes de la formación de galaxias, con lo que la huella de dichas ondas quedó grabada en la estructura a gran escala del Universo. Son excelentes medidoras de distancias cosmológicas, permitiendo medir distancias de miles de millones de años luz con una precisión menor al 1%. De hecho, experimentos actuales como DESI o Euclid están realizando cartografiados astronómicos que llegan hasta miles de millones de años atrás en el tiempo, permitiendo reconstruir la historia de expansión del Universo.
+            image: /images/bao.png
             featured:
-              name: Demo
-              link: https://hugo-profile.netlify.app
-            badges:
-              - "Hugo"
-              - "Bootstrap"
-              - "Javascript"
-            links:
-              - icon: fa fa-envelope
-                url: mailto:?subject=Plantilla%20Hugo%20Profile&body=Échale%20un%20vistazo:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-              - icon: fab fa-github
-                url: https://github.com/gurusabarish/hugo-profile
-              - icon: fab fa-twitter
-                url: https://twitter.com/intent/tweet?text=Échale+un+vistazo:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
-          - title: Conversor de Imágenes
-            content: Una aplicación web para convertir imágenes a pdf, png a jpg, png a jpg y png a webp sin base de datos usando django.
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
+          - title: La escalera cósmica de distancias y la Tensión de Hubble
+            content: Medir distancias es todo un reto en Cosmología. Para ello necesitamos conocer muy bien las propiedades de distintos objetos astrofísicos que podamos observar a grandes distancias, como estrellas variables cefeidas, o supernovas de tipo Ia, así como calibrar muy bien medidas geométricas de distancias como los paralajes estelares o los máseres de galaxias cercanas. En el futuro cercano, la medida de cuásares mediante efecto gravitacional gracias al observatorio Vera C. Rubin así como la detección de ondas gravitacionales de las fusiones de estrellas de neutrones y/o agujeros negros, permitirán cuantificar mejor la Tensión de Hubble y así avanzar en el conocimiento de las propiedades de la misteriosa energía oscura.
+            image: /images/ladder.png
+            featured:
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Cosmic_distance_ladder
+          - title: La física del sector de los neutrinos y sus efectos cosmológicos
+            content: El sector de los neutrinos es el más desconocido del Modelo Estándar de la física de partículas y puede contener la clave de la asimetría materia-antimateria que explique nuestra propia existencia. Aunque los experimentos realizados en 1998 y 2001 revelaron que los neutrinos tienen masa, el origen de dicha masa (millones de veces menor que la masa del electrón), así como su valor exacto, son todavía desconocidos. Las medidas cosmológicas permiten poner cotas restrictivas en el valor de la masa de los neutrinos, complementando los experimentos de física de partículas como Katrin. Y además, experimentos como Ptolemy intentarán detectar el fondo cósmico de neutrinos, aportando información sobre cómo era el Universo solamente 1 segundo después del Big Bang.
+            image: /images/neutrino.png
+            featured:
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Cosmic_neutrino_background
+            #badges:
+            #  - "Libros"
+            #  - "Astrofísica"
+            #  - "Docencia"
+            #links:
+            #  - icon: fa fa-envelope
+            #    url: mailto:?subject=Plantilla%20Hugo%20Profile&body=Échale%20un%20vistazo:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            #  - icon: fab fa-github
+            #    url: https://github.com/gurusabarish/hugo-profile
+            #  - icon: fab fa-twitter
+            #    url: https://twitter.com/intent/tweet?text=Échale+un+vistazo:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+          - title: Estudio cosmológico de partículas de tipo axión
+            content: |-
+              Una aplicación web para convertir imágenes a pdf, png a jpg, png a jpg y png a webp sin base de datos usando django.
+              - hola
+              - hola 2
             image: /images/projects/converter.jpg
             featured:
               name: Demo
@@ -199,8 +243,8 @@ languages:
             links:
               - icon: fab fa-github
                 url: https://github.com/gurusabarish/converter
-          - title: Hugo Profile V2
-            content: Una plantilla Hugo limpia y simple para portafolio personal y blog.
+          - title: Medida cosmológica de la masa de los neutrinos
+            content: Determinación del valor de la masa total de los tres tipos de neutrino a partir de la distribución de galaxias en la estructura a gran escala, así como de una combinación de datos de fondo cósmico de microondas y de oscilaciones acústicas de bariones.
             image: /images/projects/profile2.jpg
             featured:
               name: Demo V2
@@ -214,24 +258,26 @@ languages:
                 url: https://github.com/gurusabarish/HugoProfileV2
       achievements:
         items:
-          - title: Finalista de Google Kickstart
-            content: Resolví todos los problemas con solución óptima.
-            url: https://example.com
-            image: /images/achievement.jpg
-          - title: Ganador del Hackathon de Facebook
-            content: Desarrollé un producto usando Inteligencia Artificial.
-            image: /images/achievement.jpg
-          - title: Hugo Profile
-            content: Desarrollé un tema y obtuve más de 1K descargas por mes.
-            url: "https://github.com/gurusabarish/hugo-profile"
-            image: /images/achievement.jpg
-          - title: Finalista de Microsoft Imagine
-            content: Desarrollamos un producto que puede ayudar a otros.
-          - title: Google Summer of Code
-            content: Contribuí a un proyecto de código abierto.
-            url: https://example.com
+          - title: Investigador principal #de un proyecto de investigación
+            content: He liderado el proyecto de investigación "Análisis de la estadística de la distribución de galaxias en la estructura a gran escala mediante grandes cartografiados astronómicos" (AST22_00001) financiado con 116.083,00 € (Junta de Andalucía y Unión Europea).
+            url: "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/universidad-cordoba-aplicara-estadistica-conocer-distribucion-galaxia_1_10892182.html"
+            image: /images/acuerdo.png
+          - title: Libro publicado
+            content: Soy autor del libro "Problemas de Astrofísica" de la Editorial Universidad de Granada, junto con Almudena Zurita, Estrella Florido, y Jorge Jiménez (profesores de la Universidad de Granada).
+            url: "https://editorial.ugr.es/libro/problemas-de-astrofisica_139665/"
+            image: /images/libro.jpg
+          - title: Excelencia docente
+            content: La Universidad de Córdoba me concedió la Mención de Excelencia Docente el 9 de octubre de 2020 por mi puntuación en el programa DOCENTIA-Córdoba durante los cursos 2014/15 a 2018/19.
+            #url: https://example.com
+            image: /images/logo-UCO.jpg
+          #- title: Finalista de Microsoft Imagine
+          #  content: Desarrollamos un producto que puede ayudar a otros.
+          #- title: Google Summer of Code
+          #  content: Contribuí a un proyecto de código abierto.
+          #  url: https://example.com
       contact:
-        content: Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!
+        content: ¿Tienes alguna pregunta o sugerencia? ¡No dudes en escribirme! Siempre estoy abierto a nuevas ideas y colaboraciones.
+        #content: Mi bandeja de entrada siempre está abierta. Ya sea que tengas una pregunta o simplemente quieras saludar, ¡haré todo lo posible para responderte!
         btnName: Escríbeme
 
 outputs:
@@ -306,6 +352,9 @@ params:
   # Whether the fade animations on the home page will be enabled
   animate: true
 
+  # Enable emoji support
+  enableEmoji: false
+
   theme:
     # disableThemeToggle: true
     # defaultTheme: "light" # dark
@@ -359,9 +408,9 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Antonio J. Cuesta."
-    subtitle: "Physicist of the Large and the Small"
+    intro: "Welcome, my name is"
+    title: "Antonio J. Cuesta"
+    subtitle: "Teacher and Researcher in Cosmology"
     content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
     image: /images/ajcuesta.jpg
     bottomImage:
@@ -370,18 +419,25 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "#"
+      url: "CVA.pdf"
       download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
-        - icon: fab fa-github
-          url: https://example.com
+        ## - icon: fab fa-github
+        ##  url: https://example.com
         - icon: fab fa-x-twitter
-          url: https://example.com
+          url: https://x.com/aj_cuesta
       customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+        - icon: /images/bluesky.svg
+          url: "https://bsky.app/profile/ajcuesta.bsky.social"
+        - icon: /images/linkedin.png
+          url: "https://www.linkedin.com/in/antonio-j-cuesta/"
+        - icon: /images/gs.webp
+          url: "https://scholar.google.com/citations?user=xLMq1EUAAAAJ"
+        - icon: /images/orcid.png
+          url: "https://orcid.org/0000-0002-4153-9470"
+
 
   # About
   about:
@@ -392,16 +448,17 @@ params:
       I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
 
       I am currently working on a project that will be used to help people find the best way to get around the city.
+    
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few topics I've been teaching recently:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "[Astrofísica y Cosmología 🇪🇸](https://www.uco.es/eguiado/guias/2026-27/100513es_2026-27.pdf)"
+        - "[Física Nuclear y de Partículas 🇪🇸/🇬🇧🇺🇸](https://www.uco.es/eguiado/guias/2026-27/100512es_2026-27.pdf)"
+        - "[Machine Learning aplicado a la Física 🇪🇸](https://www.uco.es/eguiado/guias/2026-27/646012es_2026-27.pdf)"
+        - "[Física Atómica y Molecular 🇬🇧🇺🇸](https://www.uco.es/eguiado/guias/2025-26/100515en_2025-26.pdf)"
+        #- "Física Cuántica II"
+        #- "Mecánica y Ondas I"
 
   # Experience
   experience:
@@ -604,7 +661,7 @@ params:
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
     btnName: Mail me
-    btnLink: mailto:gurusabarisha@gmail.com
+    btnLink: mailto:ajcuesta@uco.es
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
