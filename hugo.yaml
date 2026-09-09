@@ -27,6 +27,197 @@ languages:
         #  title: Image gallery
         #  url: /gallery
         #  weight: 2
+    params:
+      hero:
+        intro: "Welcome to the website of"
+        title: "Antonio J. Cuesta"
+        subtitle: "Teacher and Researcher in Cosmology"
+        content: "I am an Associate Professor at the [University of Córdoba](https://www.uco.es). I teach the courses 'Astrophysics and Cosmology' and 'Nuclear and Particle Physics' of the Bachelor's degree in Physics. My research focuses on the field of Cosmology, which unites these disciplines."
+        button:
+          name: "Curriculum"
+      about:
+        title: "About Me"
+        content: |-
+          I was born in Granada, where I trained as a physicist specializing in Astrophysics and Cosmology. After completing a doctoral thesis on the properties of dark matter halos—using cosmological simulations run at supercomputing centers—I was hired in New Haven, Connecticut (USA) to study dark energy via the Sloan Digital Sky Survey's BOSS mapping project, employing Bayesian statistical techniques to analyze the large-scale structure of the Universe. Subsequently, I secured a position in Barcelona, where I continued my work on baryon acoustic oscillations while developing new skills, such as the cosmological determination of neutrino mass and the study of the Hubble Tension. Finally, I found my professional home at the University of Córdoba, where I successfully navigated several selection processes to obtain the tenured faculty position (Associate Professor) I hold today.
+
+          I am currently working on a project that makes it possible to test for the viability of particles beyond the Standard Model through large-scale astronomical surveys (conducted by ground-based and space-based observatories) using cosmological data. 
+
+          My favorite physics-related quotes are:
+
+          *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move."* ― Richard Feynman, The Character of Physical Law.
+          
+          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, y también *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
+          
+          *"Remember to look up at the stars and not down at your feet. [...] It matters that you don't just give up. While there's life, there is hope."* ― Stephen W. Hawking.
+
+        skills:
+          title: "Subjects I have recently taught:"
+      experience:
+        items:
+          - company: "Universidad de Córdoba"
+            companyUrl: "https://www.uco.es"
+            jobs:
+              - name: "Interim Substitute Professor, Assistant Professor (Tenure-Track), Associate Professor (Contracted), and Tenured Associate Professor"
+                date: "Feb 2017 - today"
+                content: "Lecturer and Researcher in the Department of Physics."
+                info:
+                  content: "Full-time (temporary and permanent) teaching and research staff (PDI); Full-time civil servant."
+                featuredItems:
+                  ## fontAwesomeIcons:
+                  ##  - icon: fa-brands fa-react
+                  ##    url: https://react.dev/
+                  ##    tooltip: Contenido de ejemplo de tooltip
+                  ##  - icon: fab fa-x-twitter
+                  ##    url: https://example.com
+                  customIcons:
+                    - icon: /images/uco.png
+                      url: "https://www.uco.es"
+                      tooltip: University of Córdoba logo
+                    ## - icon: /fav.png
+                    ##   url: "https://example.com"
+                    ##   tooltip: Contenido de ejemplo de tooltip
+              - name: "Selected publications"
+                content: |
+                 - Dynamical dark energy in light of the latest observations. Zhao, GB., Raveri, M., Pogosian, L. et al., incluyendo <u>Antonio J. Cuesta</u> (11/26 authors). *Nature Astronomy* 1, 627-632 (2017). https://doi.org/10.1038/s41550-017-0216-z (441 citations).
+                 - Evidence for baryon acoustic oscillations from galaxy-ellipticity correlations. Kun Xu, Y. P. Jing, Gong-Bo Zhao & <u>Antonio J. Cuesta</u>. *Nature Astronomy* 7, 1259-1264 (2023). https://doi.org/10.1038/s41550-023-02035-4 (21 citations).
+                 - Cosmology of an axion-like majoron. <u>A. J. Cuesta</u>, M. E. Gómez, J. I. Illana and M. Masip.  *Journal of Cosmology and Astroparticle Physics* 04 (2022) 009. https://doi.org/10.1088/1475-7516/2022/04/009 (9 citations).
+          - company: "Universitat de Barcelona"
+            companyUrl: "https://web.ub.edu"
+            jobs:
+              - name: "Postdoctoral Researcher"
+                date: "Oct 2013 - Jan 2017"
+                content: "Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Licia Verde](https://es.wikipedia.org/wiki/Licia_Verde)'s group."
+                info:
+                  content: "Full-time temporary academic staff."
+                featuredItems:
+                  ## fontAwesomeIcons:
+                  ##  - icon: fa-brands fa-react
+                  ##    url: https://react.dev/
+                  ##    tooltip: Contenido de ejemplo de tooltip
+                  ##  - icon: fab fa-x-twitter
+                  ##    url: https://example.com
+                  customIcons:
+                    - icon: /images/ub.jpeg
+                      url: "https://web.ub.edu"
+                      tooltip: University of Barcelona logo
+                    ## - icon: /fav.png
+                    ##   url: "https://example.com"
+                    ##   tooltip: Contenido de ejemplo de tooltip
+              - name: "Selected publications"
+                ##date: "Cuesta et al. 2016"
+                content: |-
+                 - The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12. <u>Cuesta, Antonio J.</u>; Vargas-Magana, Mariana; Beutler, Florian et al. (23 authors) *Monthly Notices of the Royal Astronomical Society*, Volume 457, Issue 2, 01 April 2016, Pages 1770-1785, https://doi.org/10.1093/mnras/stw066 (155 citations).
+                 - Calibrating the cosmic distance scale ladder: the role of the sound-horizon scale and the local expansion rate as distance anchors. <u>Antonio J. Cuesta</u>, Licia Verde, Adam Riess (Nobel laureate 2011), Raul Jimenez. *Monthly Notices of the Royal Astronomical Society*, Volume 448, Issue 4, 21 April 2015, Pages 3463-3471, https://doi.org/10.1093/mnras/stv261 (92 citations).
+                 - Neutrino mass limits: Robust information from the power spectrum of galaxy surveys. <u>Antonio J. Cuesta</u>, Viviana Niro, Licia Verde. *Physics of the Dark Universe*, Volume 13, 2016, Pages 77-86, https://doi.org/10.1016/j.dark.2016.04.005 (107 citations).
+          - company: "Yale University"
+            companyUrl: "https://www.yale.edu"
+            jobs:
+              - name: "Postdoctoral Research Associate"
+                date: "Oct 2010 - Sep 2013"
+                info:
+                  content: Full-time temporary academic staff.
+                content: |
+                  Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Nikhil Padmanabhan](https://en.wikipedia.org/wiki/Nikhil_Padmanabhan)'s group.
+
+                ##  - Desarrolladora backend principal de un producto.
+                ##  - Creé un diseño frontend para un producto.
+                featuredItems:
+                  customIcons:
+                    - icon: /images/yale.png
+                      url: "https://www.yale.edu"
+                      tooltip: Yale University logo
+              - name: "Selected publications"
+                content: |
+                 - Clustering of Sloan Digital Sky Survey III Photometric Luminous Galaxies: The Measurement, Systematics, and Cosmological Implications. Shirley Ho, <u>Antonio Cuesta</u>, Hee-Jong Seo, et al. (40 authors). *The Astrophysical Journal*, Volume 761, 14 https://doi.org/10.1088/0004-637X/761/1/14 (119 citations).
+                 - Measuring DA and H at z=0.35 from the SDSS DR7 LRGs using baryon acoustic oscillations. Xiaoying Xu, <u>Antonio J. Cuesta</u>, Nikhil Padmanabhan, Daniel J. Eisenstein, Cameron K. McBride. *Monthly Notices of the Royal Astronomical Society*, Volume 431, Issue 3, 21 May 2013, Pages 2834–2860, https://doi.org/10.1093/mnras/stt379 (191 citations).
+          - company: "IAA-CSIC"
+            companyUrl: "https://www.iaa.csic.es"
+            jobs:
+              - name: "PhD student"
+                date: "May 2006 - Apr 2010"
+                featuredItems:
+                  customIcons:
+                    - icon: /images/iaa.jpeg
+                      url: "https://www.iaa.csic.es/"
+                info:
+                  content: Full-time temporary contract.
+                content: |
+                  Completion of the doctoral thesis in Astrophysics "The properties of virialized dark matter halos: Signals from the large scale structures". Predoctoral researcher in Dr. [Francisco Prada](https://fprada.iaa.es/)'s group.
+
+                ##  - Desarrolladora backend principal de un producto.
+                ##  - Creé un diseño frontend para un producto.
+              - name: "Selected publications"
+                content: |
+                 - The virialized mass of dark matter haloes. <u>A. J. Cuesta</u>, F. Prada, A. Klypin, M. Moles. *Monthly Notices of the Royal Astronomical Society*, Volume 389, Issue 1, September 2008, Pages 385-397, https://doi.org/10.1111/j.1365-2966.2008.13590.x (128 citations).
+                 - Spin alignment of dark matter haloes in the shells of the largest voids. <u>Antonio J. Cuesta</u>, Juan E. Betancort-Rijo, Stefan Gottlöber, Santiago G. Patiri, Gustavo Yepes, Francisco Prada. *Monthly Notices of the Royal Astronomical Society*, Volume 385, Issue 2, February 2008, Pages 867-874, https://doi.org/10.1111/j.1365-2966.2008.12879.x (30 citations).
+      education:
+        items:
+          - title: PhD from the University of Granada
+            school:
+              name: "University of Granada"
+              url: "https://www.ugr.es/"
+            date: "2006 - 2010"
+            GPA: "Outstanding cum laude"
+            content: |-
+              Doctoral Program in Advanced Methods and Techniques in Physics (Astrophysics Module). Doctoral thesis titled "The properties of virialized dark matter halos: Signals from the large scale structures" conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es).
+            featuredLink:
+              enable: true
+              name: "My PhD thesis"
+              url: "https://digibug.ugr.es/handle/10481/6640"
+          - title: "Master's Degree in Advanced Methods and Techniques in Physics"
+            school:
+              name: "University of Granada"
+              url: "https://www.ugr.es/"
+            date: "2005 - 2007"
+            GPA: "Outstanding"
+            content: |-
+              Master's thesis titled "The Virialized Mass of Dark Matter Halos in Cosmological Simulations," conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es/) y el Dr. [Mariano Moles Villamate](https://es.wikipedia.org/wiki/Mariano_Moles).
+          - title: "Master's Degree in Compulsory Secondary Education and Baccalaureate Teaching, Vocational Training and Language Teaching - Specialty in Physics and Chemistry"
+            school:
+              name: "University of Seville"
+              url: "https://www.us.es/"
+            date: "2016 - 2017"
+            GPA: "Outstanding"
+            content: |-
+              Master's Thesis titled "A Proposal for Improving the Teaching of Quantum Physics in the Final Year of High School," carried out in the Department of Didactics of Experimental and Social Sciences under the supervision of Dr. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
+      projects:
+        items:
+          - title: Baryon Acoustic Oscillations in Large  Astronomical Surveys
+            content: These waves, which propagated when the Universe was in a plasma state, became frozen long before galaxies formed, thereby imprinting their signature onto the Universe's large-scale structure. They serve as excellent cosmic distance indicators, enabling the measurement of distances spanning billions of light-years with a precision of better than 1%. Indeed, current experiments such as DESI, Euclid, and Roman are conducting astronomical surveys that reach billions of years back in time, allowing for the reconstruction of the Universe's expansion history (thereby testing the validity of the standard ΛCDM cosmological model) and the formation of structures within it (thereby testing the validity of General Relativity).
+            image: /images/bao.png
+            featured:
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
+          - title: Cosmic distance ladder and the Hubble Tension
+            content: Measuring distances is a major challenge in cosmology. To do so, we need a thorough understanding of the properties of various astrophysical objects observable at great distances - such as Cepheid variable stars or Type Ia supernovae - and must precisely calibrate geometric distance measurements, such as stellar parallaxes or masers in nearby galaxies. In the near future, measuring quasars via strong gravitational lensing - enabled by the LSST survey at the Vera C. Rubin Observatory - and detecting gravitational waves from neutron star and/or black hole mergers will allow for a better quantification of the Hubble Tension, thereby advancing our understanding of the properties of mysterious dark energy.
+            image: /images/ladder.png
+            featured:
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Cosmic_distance_ladder
+          - title: The Physics of the neutrino sector and its cosmological effects
+            content: The neutrino sector is the least understood part of the Standard Model of particle physics and may hold the key to the matter-antimatter asymmetry that explains our own existence. Although experiments conducted in 1998 and 2001 revealed that neutrinos have mass, the origin of that mass - which is millions of times smaller than the mass of the electron - remains unknown, as does its precise value. Cosmological measurements allow for the setting of strict limits on neutrino mass, complementing particle physics experiments such as KATRIN. Furthermore, experiments like PTOLEMY aim to detect the cosmic neutrino background, providing information about the state of the Universe just one second after the Big Bang.
+            image: /images/neutrino.png
+            featured:
+              name: Wikipedia
+              link:  https://en.wikipedia.org/wiki/Cosmic_neutrino_background
+      achievements:
+        items:
+          - title: Principal Investigator
+            content: I have led the research project "Analysis of the statistics of the galaxy distribution in the large-scale structure using large astronomical surveys" (AST22_00001), funded with €116,083.00 by Junta de Andalucía and the European Union.
+            url: "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/universidad-cordoba-aplicara-estadistica-conocer-distribucion-galaxia_1_10892182.html"
+            image: /images/acuerdo.png
+          - title: Published book
+            content: I am author of the book *Problemas de Astrofísica* (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
+            url: "https://editorial.ugr.es/libro/problemas-de-astrofisica_139665/"
+            image: /images/libro.jpg
+          - title: Teaching excellence
+            content: I was awarded University of Cordoba's Teaching Excellence Distinction on October 9, 2020, based on my score in the DOCENTIA-Córdoba program during the 2014/15 to 2018/19 academic years.
+            #url: https://example.com
+            image: /images/logo-UCO.jpg   
+      contact:
+        content: Do you have any questions or suggestions? Don't hesitate to write to me! I am always open to new ideas and collaborations.
+        btnName: Send me an email
+ 
   es:
     languageName: "Español"
     weight: 1
@@ -48,7 +239,7 @@ languages:
         intro: "Bienvenido a la página web de"
         title: "Antonio J. Cuesta"
         subtitle: "Docente e Investigador de la Física de lo Grande y lo Pequeño"
-        content: "Soy Profesor Titular en la [Universidad de Córdoba](https://www.uco.es). Imparto las asignaturas 'Astrofísica y Cosmología' y 'Física Nuclear y de Partículas' del Grado de Física. Mi investigación se centra en el campo de la Cosmología, que une ambas disciplinas."
+        content: "Soy Profesor Titular en la [Universidad de Córdoba](https://www.uco.es). Imparto las asignaturas 'Astrofísica y Cosmología' y 'Física Nuclear y de Partículas' del Grado de Física. Mi investigación se centra en el campo de la Cosmología, que une estas disciplinas."
         button:
           name: "Currículum"
       about:
@@ -199,14 +390,14 @@ languages:
               Trabajo Fin de Máster titulado "Una propuesta de mejora en la enseñanza de la Física Cuántica en 2º de Bachillerato" realizada en el Departamento de  Didáctica de las Ciencias Experimentales y Sociales bajo la supervisión de la Dra. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
       projects:
         items:
-          - title: Oscilaciones acústicas de bariones y Grandes Cartografiados Astronómicos
+          - title: Oscilaciones acústicas de bariones en Grandes Cartografiados Astronómicos
             content: Estas ondas que se propagaron cuando el Universo estaba en forma de plasma se quedaron congeladas mucho antes de la formación de galaxias, con lo que la huella de dichas ondas quedó grabada en la estructura a gran escala del Universo. Son excelentes medidoras de distancias cosmológicas, permitiendo medir distancias de miles de millones de años luz con una precisión menor al 1%. De hecho, experimentos actuales como DESI, Euclid o Roman están realizando cartografiados astronómicos que llegan hasta miles de millones de años atrás en el tiempo, permitiendo reconstruir la historia de expansión del Universo (comprobando la validez del modelo cosmológico estándar ΛCDM) y la formación de estructuras dentro del mismo (comprobando la validez de la Relatividad General).
             image: /images/bao.png
             featured:
               name: Wikipedia
               link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
           - title: La escalera cósmica de distancias y la Tensión de Hubble
-            content: Medir distancias es todo un reto en Cosmología. Para ello necesitamos conocer muy bien las propiedades de distintos objetos astrofísicos que podamos observar a grandes distancias, como estrellas variables cefeidas, o supernovas de tipo Ia, así como calibrar muy bien medidas geométricas de distancias como los paralajes estelares o los máseres de galaxias cercanas. En el futuro cercano, la medida de cuásares mediante efecto gravitacional gracias al cartografiado LSST realizado en el observatorio Vera C. Rubin así como la detección de ondas gravitacionales de las fusiones de estrellas de neutrones y/o agujeros negros, permitirán cuantificar mejor la Tensión de Hubble y así avanzar en el conocimiento de las propiedades de la misteriosa energía oscura.
+            content: Medir distancias es todo un reto en Cosmología. Para ello necesitamos conocer muy bien las propiedades de distintos objetos astrofísicos que podamos observar a grandes distancias, como estrellas variables cefeidas, o supernovas de tipo Ia, así como calibrar muy bien medidas geométricas de distancias como los paralajes estelares o los máseres de galaxias cercanas. En el futuro cercano, la medida de cuásares mediante efecto lente gravitacional fuerte gracias al cartografiado LSST realizado en el observatorio Vera C. Rubin así como la detección de ondas gravitacionales de las fusiones de estrellas de neutrones y/o agujeros negros, permitirán cuantificar mejor la Tensión de Hubble y así avanzar en el conocimiento de las propiedades de la misteriosa energía oscura.
             image: /images/ladder.png
             featured:
               name: Wikipedia
