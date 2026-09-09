@@ -7,7 +7,7 @@ relativeURLs: true
 canonifyURLs: true
 
 # Multilingual configuration
-defaultContentLanguage: "en"
+defaultContentLanguage: "es"
 defaultContentLanguageInSubdir: false
 
 languages:
