@@ -7,21 +7,21 @@ relativeURLs: true
 canonifyURLs: true
 
 # Multilingual configuration
-defaultContentLanguage: "es"
+defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 languages:
-  #en:
-    #languageName: "English"
-    #weight: 1
-    #contentDir: "content"
-    #menu:
-      #main:
-        #- identifier: blog
-          #name: Blog
-          #title: Blog posts
-          #url: /blogs
-          #weight: 1
+  en:
+    languageName: "English"
+    weight: 2
+    contentDir: "content"
+    menu:
+      main:
+        - identifier: blog
+          name: Blog
+          title: Blog posts
+          url: /blogs
+          weight: 1
         #- identifier: gallery
         #  name: Gallery
         #  title: Image gallery
@@ -29,7 +29,7 @@ languages:
         #  weight: 2
   es:
     languageName: "Español"
-    weight: 2
+    weight: 1
     contentDir: "content/es"
     menu:
       main:
@@ -200,13 +200,13 @@ languages:
       projects:
         items:
           - title: Oscilaciones acústicas de bariones y Grandes Cartografiados Astronómicos
-            content: Estas ondas que se propagaron cuando el Universo estaba en forma de plasma se quedaron congeladas mucho antes de la formación de galaxias, con lo que la huella de dichas ondas quedó grabada en la estructura a gran escala del Universo. Son excelentes medidoras de distancias cosmológicas, permitiendo medir distancias de miles de millones de años luz con una precisión menor al 1%. De hecho, experimentos actuales como DESI o Euclid están realizando cartografiados astronómicos que llegan hasta miles de millones de años atrás en el tiempo, permitiendo reconstruir la historia de expansión del Universo.
+            content: Estas ondas que se propagaron cuando el Universo estaba en forma de plasma se quedaron congeladas mucho antes de la formación de galaxias, con lo que la huella de dichas ondas quedó grabada en la estructura a gran escala del Universo. Son excelentes medidoras de distancias cosmológicas, permitiendo medir distancias de miles de millones de años luz con una precisión menor al 1%. De hecho, experimentos actuales como DESI, Euclid o Roman están realizando cartografiados astronómicos que llegan hasta miles de millones de años atrás en el tiempo, permitiendo reconstruir la historia de expansión del Universo (comprobando la validez del modelo cosmológico estándar ΛCDM) y la formación de estructuras dentro del mismo (comprobando la validez de la Relatividad General).
             image: /images/bao.png
             featured:
               name: Wikipedia
               link:  https://en.wikipedia.org/wiki/Baryon_acoustic_oscillations
           - title: La escalera cósmica de distancias y la Tensión de Hubble
-            content: Medir distancias es todo un reto en Cosmología. Para ello necesitamos conocer muy bien las propiedades de distintos objetos astrofísicos que podamos observar a grandes distancias, como estrellas variables cefeidas, o supernovas de tipo Ia, así como calibrar muy bien medidas geométricas de distancias como los paralajes estelares o los máseres de galaxias cercanas. En el futuro cercano, la medida de cuásares mediante efecto gravitacional gracias al observatorio Vera C. Rubin así como la detección de ondas gravitacionales de las fusiones de estrellas de neutrones y/o agujeros negros, permitirán cuantificar mejor la Tensión de Hubble y así avanzar en el conocimiento de las propiedades de la misteriosa energía oscura.
+            content: Medir distancias es todo un reto en Cosmología. Para ello necesitamos conocer muy bien las propiedades de distintos objetos astrofísicos que podamos observar a grandes distancias, como estrellas variables cefeidas, o supernovas de tipo Ia, así como calibrar muy bien medidas geométricas de distancias como los paralajes estelares o los máseres de galaxias cercanas. En el futuro cercano, la medida de cuásares mediante efecto gravitacional gracias al cartografiado LSST realizado en el observatorio Vera C. Rubin así como la detección de ondas gravitacionales de las fusiones de estrellas de neutrones y/o agujeros negros, permitirán cuantificar mejor la Tensión de Hubble y así avanzar en el conocimiento de las propiedades de la misteriosa energía oscura.
             image: /images/ladder.png
             featured:
               name: Wikipedia
