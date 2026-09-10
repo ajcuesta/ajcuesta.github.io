@@ -8,7 +8,7 @@ tags:
   - press release
   - outreach
 image: "https://www.sdss3.org/press/images/onepercent.boss.v4.jpg"
-description: ""
+description: "Press release"
 toc: 
 weight: 1
 ---

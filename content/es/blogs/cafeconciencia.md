@@ -8,7 +8,7 @@ tags:
   - encuentro
   - divulgación
 image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cosmological_composition.jpg"
-description: ""
+description: "Encuentro con estudiantes"
 toc: 
 weight: 1
 ---

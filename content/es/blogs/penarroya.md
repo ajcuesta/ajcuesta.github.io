@@ -8,7 +8,7 @@ tags:
   - conferencia
   - divulgación
 image: "https://infoguadiato.com/wp-content/uploads/2025/06/Penarroya-Pueblonuevo-a-la-vanguardia-de-la-divulgacion-en-fisica-cuantica-4.jpg"
-description: ""
+description: "Conferencia de divulgación"
 toc: 
 weight: 1
 ---

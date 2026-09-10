@@ -8,7 +8,7 @@ tags:
   - talks
   - outreach
 image: "https://infoguadiato.com/wp-content/uploads/2025/06/Penarroya-Pueblonuevo-a-la-vanguardia-de-la-divulgacion-en-fisica-cuantica-4.jpg"
-description: ""
+description: "Outreach talk"
 toc: 
 weight: 1
 ---

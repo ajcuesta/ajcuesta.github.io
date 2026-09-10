@@ -8,7 +8,7 @@ tags:
   - curso
   - divulgación
 image: "https://i.ytimg.com/vi/Ovph6_0kbtk/maxresdefault.jpg"
-description: ""
+description: "Curso"
 toc: 
 weight: 1
 ---

@@ -8,7 +8,7 @@ tags:
   - meeting
   - outreach
 image: "https://upload.wikimedia.org/wikipedia/commons/b/b9/Cosmological_composition.jpg"
-description: ""
+description: "Meeting with students"
 toc: 
 weight: 1
 ---

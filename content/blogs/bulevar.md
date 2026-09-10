@@ -8,7 +8,7 @@ tags:
   - talks
   - outreach
 image: "https://i.ytimg.com/vi/-AgURRTZBQs/maxresdefault.jpg"
-description: ""
+description: "Outreach talk"
 toc: 
 weight: 1
 ---

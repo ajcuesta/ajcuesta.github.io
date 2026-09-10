@@ -8,7 +8,7 @@ tags:
   - press release
   - outreach
 image: "https://cdn.agenciasinc.es/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/como-estudiar-los-neutrinos-mirando-al-cielo/5734201-1-esl-MX/Como-estudiar-los-neutrinos-mirando-al-cielo.jpg"
-description: ""
+description: "Press release"
 toc: 
 weight: 1
 ---

@@ -8,7 +8,7 @@ tags:
   - conferencia
   - divulgación
 image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBrYv6onUrm4VVUOnK3ZkorWtpfk1qTq7aOwsmM9sQljwXYeu22NBZIsZs&s=10"
-description: ""
+description: "Conferencia de divulgación"
 toc: 
 weight: 1
 ---

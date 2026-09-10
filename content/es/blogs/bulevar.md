@@ -8,7 +8,7 @@ tags:
   - conferencia
   - divulgación
 image: "https://i.ytimg.com/vi/-AgURRTZBQs/maxresdefault.jpg"
-description: ""
+description: "Conferencia de divulgación"
 toc: 
 weight: 1
 ---

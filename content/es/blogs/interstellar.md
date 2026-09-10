@@ -8,7 +8,7 @@ tags:
   - coloquio
   - divulgación
 image: "https://i.ytimg.com/vi/6cF3gIvs5CU/maxresdefault.jpg"
-description: ""
+description: "Evento de divulgación"
 toc: 
 weight: 1
 ---

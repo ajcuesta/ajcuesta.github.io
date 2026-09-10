@@ -7,7 +7,7 @@ tags:
   - outreach
   - social networks
 image: /images/blackboard.png
-description: ""
+description: "Outreach in social media"
 toc: 
 weight: 1
 ---

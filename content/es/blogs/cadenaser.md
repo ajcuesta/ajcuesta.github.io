@@ -8,7 +8,7 @@ tags:
   - nota de prensa
   - divulgación
 image: "https://cadenaser.com/resizer/v2/3UOSVNSVQBJN5LIVVHRJUXRXN4.jpg?auth=a7b6ed62841b568ab8bdf42df10b46de416709d74e37db40359e95325f8e10ff"
-description: ""
+description: "Entrevista"
 toc: 
 weight: 1
 ---

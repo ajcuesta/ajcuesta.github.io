@@ -8,7 +8,7 @@ tags:
   - nota de prensa
   - divulgación
 image: "https://www.sdss3.org/press/images/onepercent.boss.v4.jpg"
-description: ""
+description: "Nota de prensa"
 toc: 
 weight: 1
 ---

@@ -8,7 +8,7 @@ tags:
   - press release
   - outreach
 image: "https://i.ytimg.com/vi/BTfebxEyR7E/maxresdefault.jpg"
-description: ""
+description: "Press release"
 toc: 
 weight: 1
 ---

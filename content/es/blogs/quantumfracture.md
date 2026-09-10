@@ -8,7 +8,7 @@ tags:
   - vídeo
   - divulgación
 image: "https://i.ytimg.com/vi/6uC_0NVxI2o/maxresdefault.jpg"
-description: ""
+description: "Colaboración de divulgación"
 toc: 
 weight: 1
 ---

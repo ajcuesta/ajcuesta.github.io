@@ -8,7 +8,7 @@ tags:
   - nota de prensa
   - divulgación
 image: "https://i.ytimg.com/vi/6I499fDhLko/maxresdefault.jpg"
-description: ""
+description: "Nota de prensa"
 toc: 
 weight: 1
 ---

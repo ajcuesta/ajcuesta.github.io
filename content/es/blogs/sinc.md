@@ -8,7 +8,7 @@ tags:
   - nota de prensa
   - divulgación
 image: "https://cdn.agenciasinc.es/var/ezwebin_site/storage/images/_aliases/img_1col/noticias/como-estudiar-los-neutrinos-mirando-al-cielo/5734201-1-esl-MX/Como-estudiar-los-neutrinos-mirando-al-cielo.jpg"
-description: ""
+description: "Nota de prensa"
 toc: 
 weight: 1
 ---

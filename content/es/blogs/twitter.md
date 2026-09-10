@@ -7,7 +7,7 @@ tags:
   - divulgación
   - redes sociales
 image: /images/blackboard.png
-description: ""
+description: "Redes sociales"
 toc: 
 weight: 1
 ---

@@ -8,7 +8,7 @@ tags:
   - press release
   - outreach
 image: "https://fotografias.lasexta.com/clipping/cmsimages02/2017/09/11/E64DA41C-843F-4F51-8441-26C952EEC09A/97.jpg"
-description: ""
+description: "Press release"
 toc: 
 weight: 1
 ---
