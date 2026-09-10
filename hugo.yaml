@@ -7,7 +7,7 @@ relativeURLs: true
 canonifyURLs: true
 
 # Multilingual configuration
-defaultContentLanguage: "es"
+defaultContentLanguage: "en"
 defaultContentLanguageInSubdir: false
 
 languages:
@@ -306,8 +306,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "Antonio J. Cuesta"
+  description: Academic website
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -328,7 +328,7 @@ params:
   animate: true
 
   # Enable emoji support
-  enableEmoji: false
+  #enableEmoji: false
 
   theme:
     # disableThemeToggle: true
@@ -669,7 +669,7 @@ params:
     read: "Read"
     toc: "Table Of Contents"
     copyright: "All rights reserved"
-    emailText: "Check out this site"
+    emailText: "Academic website of Antonio J. Cuesta"
 
   datesFormat:
     article: "Jan 2, 2006"
