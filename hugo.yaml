@@ -589,7 +589,7 @@ params:
         url: "https://cordopolis.eldiario.es/cordoba-hoy/sociedad/universidad-cordoba-aplicara-estadistica-conocer-distribucion-galaxia_1_10892182.html"
         image: /images/acuerdo.png
       - title: Published book
-        content: I am author of the book *Problemas de Astrofísica* (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
+        content: I am author of the book "Problemas de Astrofísica" (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
         url: "https://editorial.ugr.es/libro/problemas-de-astrofisica_139665/"
         image: /images/libro.jpg
       - title: Teaching excellence
