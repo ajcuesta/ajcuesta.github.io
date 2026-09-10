@@ -1,5 +1,5 @@
 ---
-title: "Las propiedades cambiantes de la energía oscura"
+title: "The changing properties of dark energy"
 date: 2017-09-11T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

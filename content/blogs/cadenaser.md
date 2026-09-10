@@ -1,5 +1,5 @@
 ---
-title: "Y tú, ¿qué sabes de Física?"
+title: "What do you know about physics?"
 date: 2018-11-19T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

@@ -1,5 +1,5 @@
 ---
-title: "Cartografiando el Universo: Hasta el infinito y más allá"
+title: "Mapping the Universe: To Infinity and Beyond"
 date: 2018-04-25T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
@@ -13,7 +13,7 @@ toc:
 weight: 1
 ---
 
-CPublic outreach talk on distance measurements in the Universe.
+Public outreach talk on distance measurements in the Universe.
 
 Presented at Bulebar Café (Seville) as part of the "Ciencia en Bulebar" series.
 {{< youtube -AgURRTZBQs >}}

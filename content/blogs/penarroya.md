@@ -1,5 +1,5 @@
 ---
-title: "¿A qué saben los neutrinos?"
+title: "What do neutrinos taste like?"
 date: 2025-06-14T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

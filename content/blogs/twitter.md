@@ -1,5 +1,5 @@
 ---
-title: "Publicaciones en X (Twitter)"
+title: "Posts on X (Twitter)"
 date: 2024-05-11T00:00:00+02:00
 draft: false
 author: "Antonio J. Cuesta"

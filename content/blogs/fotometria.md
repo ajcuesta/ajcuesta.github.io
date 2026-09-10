@@ -1,5 +1,5 @@
 ---
-title: "Fotometría - La medida de la luz"
+title: "Photometry - How to measure light"
 date: 2025-04-09T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

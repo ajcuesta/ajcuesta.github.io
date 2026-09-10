@@ -1,5 +1,5 @@
 ---
-title: "Un nuevo método ayuda a medir con mayor precisión distancias cosmológicas"
+title: "A new method helps measure cosmological distances with greater precision"
 date: 2023-08-04T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

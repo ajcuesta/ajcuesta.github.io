@@ -1,5 +1,5 @@
 ---
-title: "La distancia a las galaxias, medida con una precisión del 1%"
+title: "The distance to the galaxies, measured with 1% precision"
 date: 2014-01-08T00:00:00+01:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

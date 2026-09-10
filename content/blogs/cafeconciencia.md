@@ -1,5 +1,5 @@
 ---
-title: "El 95% del Universo me hace ghosting"
+title: "95% of the Universe is ghosting me"
 date: 2024-11-04T00:00:00+01:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"

@@ -1,5 +1,5 @@
 ---
-title: "Cartografiando el Universo: Hasta el infinito y más allá"
+title: "Mapping the Universe: To Infinity and Beyond"
 date: 2014-03-26T00:00:00+01:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
