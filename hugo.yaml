@@ -427,7 +427,7 @@ params:
 
           *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move."* ― Richard Feynman, The Character of Physical Law.
           
-          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, y también *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
+          *"The important thing is not to stop questioning. [...] It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."*, and also *"The most incomprehensible thing about the universe is that it is comprehensible."* ― Albert Einstein.
           
           *"Remember to look up at the stars and not down at your feet. [...] It matters that you don't just give up. While there's life, there is hope."* ― Stephen W. Hawking.
     
@@ -615,7 +615,7 @@ params:
           name: Wikipedia
           link:  https://en.wikipedia.org/wiki/Cosmic_distance_ladder
       - title: The Physics of the neutrino sector and its cosmological effects
-        content: The neutrino sector is the least understood part of the Standard Model of particle physics and may hold the key to the matter-antimatter asymmetry that explains our own existence. Although experiments conducted in 1998 and 2001 revealed that neutrinos have mass, the origin of that mass - which is millions of times smaller than the mass of the electron - remains unknown, as does its precise value. Cosmological measurements allow for the setting of strict limits on neutrino mass, complementing particle physics experiments such as KATRIN. Furthermore, experiments like PTOLEMY aim to detect the cosmic neutrino background, providing information about the Universe just one second after the Big Bang.
+        content: The neutrino sector is the least understood part of the Standard Model of particle physics and may hold the key to the matter-antimatter asymmetry that explains our own existence. Although experiments conducted in 1998 and 2001 revealed that neutrinos have mass, the origin of that mass - which is millions of times smaller than the mass of the electron - remains unknown, as does its precise value. Cosmological measurements provide strict limits on neutrino mass, complementing particle physics experiments such as KATRIN. Furthermore, experiments like PTOLEMY aim to detect the cosmic neutrino background, providing information about the Universe just one second after the Big Bang.
         image: /images/neutrino.png
         featured:
           name: Wikipedia
