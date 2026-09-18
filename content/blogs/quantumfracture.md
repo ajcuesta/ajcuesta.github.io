@@ -7,7 +7,7 @@ author: "Antonio J. Cuesta"
 tags:
   - video
   - outreach
-image: "https://i.ytimg.com/vi/6uC_0NVxI2o/maxresdefault.jpg"
+image: "https://i.ytimg.com/vi/nLPhL0YJYvg/maxresdefault.jpg"
 description: "Outreach collaboration"
 toc: 
 weight: 1
