@@ -1,6 +1,6 @@
 ---
-title: "Todas las Galaxias Van Hacia Aquí"
-date: 2026-04-16T00:00:00+02:00
+title: "Las Tres Veces que Tuvo que ser Descubierto el Big Bang"
+date: 2026-09-17T00:00:00+02:00
 draft: false
 github_link: "https://github.com/gurusabarish/hugo-profile"
 author: "Antonio J. Cuesta"
@@ -16,6 +16,6 @@ weight: 1
 Colaboración con el canal QuantumFracture. Revisión científica del guión del vídeo.
 
 Organizado por el equipo del canal QuantumFracture de YouTube.
-{{< youtube 6uC_0NVxI2o >}}
+{{< youtube nLPhL0YJYvg >}}
 
 
