@@ -69,11 +69,11 @@ languages:
 
           *"Whatever the final laws of nature may be, there is no reason to suppose that they are designed to make physicists happy."* ― Steven Weinberg.
 
-          *"An expert is a person who has made all the mistakes that can be made in a very narrow field." ― Niels Bohr.
+          *"An expert is a person who has made all the mistakes that can be made in a very narrow field."* ― Niels Bohr.
 
-          *"Mathematics began to seem too much like puzzle solving. Physics is puzzle solving, too, but of puzzles created by nature, not by the mind of man." ― Maria Goeppert-Mayer
+          *"Mathematics began to seem too much like puzzle solving. Physics is puzzle solving, too, but of puzzles created by nature, not by the mind of man."* ― Maria Goeppert-Mayer
 
-          *"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself." — Carl Sagan.
+          *"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."* ― Carl Sagan.
 #          - *"Suppose that physics, or rather nature, is considered analogous to a great chess game with millions of pieces in it, and we are trying to discover the laws by which the pieces move. The great gods who play this chess play it very rapidly, and it is hard to watch and difficult to see. However, we are catching on to some of the rules, and there are some rules which we can work out which do not require that we watch every move. For instance, suppose there is one bishop only, a red bishop, on the board, then since the bishop moves diagonally and therefore never changes the colour of its square, if we look away for a moment while the gods play and then look back again, we can expect that there will be still a red bishop on the board, maybe in a different place, but on the same colour square. This is in the nature of a conservation law. We do not need to watch the insides to know at least something about the game."* ― Richard Feynman, The Character of Physical Law.
 #          - *"The important thing is not to stop questioning. Curiosity has its own reason for existing. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery every day. Never lose a holy curiosity."* ― Albert Einstein
         skills:
@@ -442,11 +442,11 @@ params:
 
           *"Whatever the final laws of nature may be, there is no reason to suppose that they are designed to make physicists happy."* ― Steven Weinberg.
 
-          *"An expert is a person who has made all the mistakes that can be made in a very narrow field." ― Niels Bohr.
+          *"An expert is a person who has made all the mistakes that can be made in a very narrow field."* ― Niels Bohr.
 
-          *"Mathematics began to seem too much like puzzle solving. Physics is puzzle solving, too, but of puzzles created by nature, not by the mind of man." ― Maria Goeppert-Mayer
+          *"Mathematics began to seem too much like puzzle solving. Physics is puzzle solving, too, but of puzzles created by nature, not by the mind of man."* ― Maria Goeppert-Mayer
 
-          *"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself." — Carl Sagan.
+          *"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself."* ― Carl Sagan.
     
     skills:
       enable: true
