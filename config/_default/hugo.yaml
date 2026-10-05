@@ -46,10 +46,9 @@ imaging:
   anchor: smart
   hint: picture
 timeout: 600000
-taxonomies:
-  author: authors
-  tag: tags
-  publication_type: publication_types
+# Sin páginas automáticas de autores, etiquetas ni tipos de publicación
+# (generaban cientos de páginas de listado sin imágenes)
+disableKinds: [taxonomy, term]
 markup:
   _merge: deep
   highlight:
