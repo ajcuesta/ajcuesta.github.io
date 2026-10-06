@@ -1,0 +1,133 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Antonio J. Cuesta
+  given: Antonio J.
+  family: Cuesta
+role: Associate Professor (Profesor Titular) · University of Córdoba
+bio: |
+  I am an Associate Professor at the University of Córdoba. I teach the courses 'Astrophysics and Cosmology' and 'Nuclear and Particle Physics' of the Bachelor's degree in Physics. My research focuses on the field of Cosmology, which unites these disciplines.
+affiliations:
+  - name: Universidad de Córdoba
+    url: https://www.uco.es
+links:
+  - icon: at-symbol
+    url: mailto:ajcuesta@uco.es
+    label: E-mail
+  - icon: brands/x
+    url: https://x.com/aj_cuesta
+  - icon: brands/bluesky
+    url: https://bsky.app/profile/ajcuesta.bsky.social
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/antonio-j-cuesta/
+  - icon: academicons/google-scholar
+    url: https://scholar.google.com/citations?user=xLMq1EUAAAAJ
+  - icon: academicons/orcid
+    url: https://orcid.org/0000-0002-4153-9470
+interests:
+  - Cosmology
+  - Baryon acoustic oscillations
+  - Dark energy and the Hubble tension
+  - Neutrino physics
+  - Physics beyond the Standard Model
+education:
+  - degree: PhD from the University of Granada
+    institution: University of Granada
+    start: 2006-01-01
+    end: 2010-12-31
+    year: "2006 – 2010"
+    summary: |
+      Doctoral Program in Advanced Methods and Techniques in Physics (Astrophysics Module). Doctoral thesis titled "The properties of virialized dark matter halos: Signals from the large scale structures" conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es).
+
+      *Grade: Outstanding cum laude*
+    button:
+      text: My PhD thesis
+      url: https://digibug.ugr.es/handle/10481/6640
+      icon: hero/arrow-down-tray
+  - degree: Master's Degree in Advanced Methods and Techniques in Physics
+    institution: University of Granada
+    start: 2005-01-01
+    end: 2007-12-31
+    year: "2005 – 2007"
+    summary: |
+      Master's thesis titled "The Virialized Mass of Dark Matter Halos in Cosmological Simulations," conducted at the Institute of Astrophysics of Andalusia (IAA-CSIC) under the supervision of Dr. [Francisco Prada Martínez](https://fprada.iaa.es/) y el Dr. [Mariano Moles Villamate](https://es.wikipedia.org/wiki/Mariano_Moles).
+
+      *Grade: Outstanding*
+  - degree: Master's Degree in Compulsory Secondary Education and Baccalaureate Teaching, Vocational Training and Language Teaching - Specialty in Physics and Chemistry
+    institution: University of Seville
+    start: 2016-01-01
+    end: 2017-12-31
+    year: "2016 – 2017"
+    summary: |
+      Master's Thesis titled "A Proposal for Improving the Teaching of Quantum Physics in the Final Year of High School," carried out in the Department of Didactics of Experimental and Social Sciences under the supervision of Dr. [Ana María Criado García-Legaz](https://investigacion.us.es/sisius/sis_showpub.php?idpers=4648).
+
+      *Grade: Outstanding*
+experience:
+  - role: Interim Substitute Professor, Assistant Professor (Tenure-Track), Associate Professor (Contracted), and Tenured Associate Professor
+    org: Universidad de Córdoba
+    org_url: https://www.uco.es
+    start: 2017-02-01
+    summary: |
+      Lecturer and Researcher in the Department of Physics.
+
+      **Selected publications**
+
+      - Dynamical dark energy in light of the latest observations. Zhao, GB., Raveri, M., Pogosian, L. et al., incluyendo <u>Antonio J. Cuesta</u> (11/26 authors). *Nature Astronomy* 1, 627-632 (2017). https://doi.org/10.1038/s41550-017-0216-z (441 citations).
+      - Evidence for baryon acoustic oscillations from galaxy-ellipticity correlations. Kun Xu, Y. P. Jing, Gong-Bo Zhao & <u>Antonio J. Cuesta</u>. *Nature Astronomy* 7, 1259-1264 (2023). https://doi.org/10.1038/s41550-023-02035-4 (21 citations).
+      - Cosmology of an axion-like majoron. <u>A. J. Cuesta</u>, M. E. Gómez, J. I. Illana and M. Masip.  *Journal of Cosmology and Astroparticle Physics* 04 (2022) 009. https://doi.org/10.1088/1475-7516/2022/04/009 (9 citations).
+  - role: Postdoctoral Researcher
+    org: Universitat de Barcelona
+    org_url: https://web.ub.edu
+    start: 2013-10-01
+    end: 2017-01-01
+    summary: |
+      Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Licia Verde](https://es.wikipedia.org/wiki/Licia_Verde)'s group.
+
+      **Selected publications**
+
+      - The clustering of galaxies in the SDSS-III Baryon Oscillation Spectroscopic Survey: baryon acoustic oscillations in the correlation function of LOWZ and CMASS galaxies in Data Release 12. <u>Cuesta, Antonio J.</u>; Vargas-Magana, Mariana; Beutler, Florian et al. (23 authors) *Monthly Notices of the Royal Astronomical Society*, Volume 457, Issue 2, 01 April 2016, Pages 1770-1785, https://doi.org/10.1093/mnras/stw066 (155 citations).
+      - Calibrating the cosmic distance scale ladder: the role of the sound-horizon scale and the local expansion rate as distance anchors. <u>Antonio J. Cuesta</u>, Licia Verde, Adam Riess (Nobel laureate 2011), Raul Jimenez. *Monthly Notices of the Royal Astronomical Society*, Volume 448, Issue 4, 21 April 2015, Pages 3463-3471, https://doi.org/10.1093/mnras/stv261 (92 citations).
+      - Neutrino mass limits: Robust information from the power spectrum of galaxy surveys. <u>Antonio J. Cuesta</u>, Viviana Niro, Licia Verde. *Physics of the Dark Universe*, Volume 13, 2016, Pages 77-86, https://doi.org/10.1016/j.dark.2016.04.005 (107 citations).
+  - role: Postdoctoral Research Associate
+    org: Yale University
+    org_url: https://www.yale.edu
+    start: 2010-10-01
+    end: 2013-09-01
+    summary: |
+      Researcher in the Galaxy Clustering group of the Baryon Oscillation Spectroscopic Survey experiment (Sloan Digital Sky Survey III). Postdoc in Dr. [Nikhil Padmanabhan](https://en.wikipedia.org/wiki/Nikhil_Padmanabhan)'s group.
+
+
+      **Selected publications**
+
+      - Clustering of Sloan Digital Sky Survey III Photometric Luminous Galaxies: The Measurement, Systematics, and Cosmological Implications. Shirley Ho, <u>Antonio Cuesta</u>, Hee-Jong Seo, et al. (40 authors). *The Astrophysical Journal*, Volume 761, 14 https://doi.org/10.1088/0004-637X/761/1/14 (119 citations).
+      - Measuring DA and H at z=0.35 from the SDSS DR7 LRGs using baryon acoustic oscillations. Xiaoying Xu, <u>Antonio J. Cuesta</u>, Nikhil Padmanabhan, Daniel J. Eisenstein, Cameron K. McBride. *Monthly Notices of the Royal Astronomical Society*, Volume 431, Issue 3, 21 May 2013, Pages 2834–2860, https://doi.org/10.1093/mnras/stt379 (191 citations).
+  - role: PhD student
+    org: IAA-CSIC
+    org_url: https://www.iaa.csic.es
+    start: 2006-05-01
+    end: 2010-04-01
+    summary: |
+      Completion of the doctoral thesis in Astrophysics "The properties of virialized dark matter halos: Signals from the large scale structures". Predoctoral researcher in Dr. [Francisco Prada](https://fprada.iaa.es/)'s group.
+
+
+      **Selected publications**
+
+      - The virialized mass of dark matter haloes. <u>A. J. Cuesta</u>, F. Prada, A. Klypin, M. Moles. *Monthly Notices of the Royal Astronomical Society*, Volume 389, Issue 1, September 2008, Pages 385-397, https://doi.org/10.1111/j.1365-2966.2008.13590.x (128 citations).
+      - Spin alignment of dark matter haloes in the shells of the largest voids. <u>Antonio J. Cuesta</u>, Juan E. Betancort-Rijo, Stefan Gottlöber, Santiago G. Patiri, Gustavo Yepes, Francisco Prada. *Monthly Notices of the Royal Astronomical Society*, Volume 385, Issue 2, February 2008, Pages 867-874, https://doi.org/10.1111/j.1365-2966.2008.12879.x (30 citations).
+awards:
+  - title: Principal Investigator
+    awarder: Junta de Andalucía / European Union
+    summary: |
+      I have led the research project "Analysis of the statistics of the galaxy distribution in the large-scale structure using large astronomical surveys" (AST22_00001), funded with €116,083.00 by Junta de Andalucía and the European Union.
+    icon: hero/banknotes
+  - title: Published book
+    awarder: Editorial Universidad de Granada
+    summary: |
+      I am author of the book "Problemas de Astrofísica" (published by Editorial Universidad de Granada), together with Almudena Zurita, Estrella Florido, and Jorge Jiménez (professors at the University of Granada).
+    icon: hero/book-open
+  - title: Teaching excellence
+    awarder: University of Córdoba
+    summary: |
+      I was awarded University of Cordoba's Teaching Excellence Distinction on October 9, 2020, based on my score in the DOCENTIA-Córdoba program during the 2014/15 to 2018/19 academic years.
+    icon: hero/trophy
